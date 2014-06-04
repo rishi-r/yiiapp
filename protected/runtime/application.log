@@ -1,0 +1,2153 @@
+2014/06/03 10:40:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "home".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/
+---
+2014/06/03 10:43:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "home".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/
+---
+2014/06/03 10:43:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/index.php/admin
+---
+2014/06/03 10:44:05 [error] [exception.CException] exception 'CException' with message 'HomeController cannot find the requested view "index".' in /opt/lampp/htdocs/yii/framework/web/CController.php:878
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('index', NULL, true)
+#1 /opt/lampp/htdocs/event/protected/modules/admin/controllers/HomeController.php(12): CController->render('index')
+#2 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): HomeController->actionIndex()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('')
+#7 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/home')
+#8 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/event/index.php/admin/home
+---
+2014/06/03 16:25:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "home".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/
+HTTP_REFERER=http://common.localhost.com/
+---
+2014/06/03 16:25:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/admin
+---
+2014/06/03 16:25:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/admin/
+---
+2014/06/03 16:30:56 [error] [exception.CException] exception 'CException' with message 'Property "AdminModule.theme" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/base/CModule.php(105): CComponent->__get('theme')
+#1 /opt/lampp/htdocs/event/protected/modules/admin/AdminModule.php(21): CModule->__get('theme')
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(263): AdminModule->beforeControllerAction(Object(HomeController), Object(CInlineAction))
+#3 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('')
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#5 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/event/admin/
+---
+2014/06/03 16:31:12 [error] [exception.CException] exception 'CException' with message 'Property "AdminModule.app" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/base/CModule.php(105): CComponent->__get('app')
+#1 /opt/lampp/htdocs/event/protected/modules/admin/AdminModule.php(21): CModule->__get('app')
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(263): AdminModule->beforeControllerAction(Object(HomeController), Object(CInlineAction))
+#3 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('')
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#5 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/event/admin/
+---
+2014/06/03 16:31:40 [error] [exception.CException] exception 'CException' with message 'AdminModule and its behaviors do not have a method or closure named "app".' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /opt/lampp/htdocs/event/protected/modules/admin/AdminModule.php(21): CComponent->__call('app', Array)
+#1 /opt/lampp/htdocs/event/protected/modules/admin/AdminModule.php(21): AdminModule->app()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(263): AdminModule->beforeControllerAction(Object(HomeController), Object(CInlineAction))
+#3 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('')
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#5 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/event/admin/
+---
+2014/06/03 16:32:25 [error] [exception.CException] exception 'CException' with message 'HomeController and its behaviors do not have a method or closure named "app".' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /opt/lampp/htdocs/event/protected/modules/admin/controllers/HomeController.php(12): CComponent->__call('app', Array)
+#1 /opt/lampp/htdocs/event/protected/modules/admin/controllers/HomeController.php(12): HomeController->app()
+#2 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): HomeController->actionIndex()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('')
+#7 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#8 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/event/admin/
+---
+2014/06/03 16:34:09 [error] [exception.CException] exception 'CException' with message 'Property "AdminModule.theme" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/base/CModule.php(513): CComponent->__set('theme', 'bootstrap')
+#1 /opt/lampp/htdocs/yii/framework/base/CModule.php(86): CModule->configure(Array)
+#2 /opt/lampp/htdocs/yii/framework/YiiBase.php(206): CModule->__construct('admin', NULL, Array)
+#3 /opt/lampp/htdocs/yii/framework/base/CModule.php(282): YiiBase::createComponent('admin.AdminModu...', 'admin', NULL, Array)
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(337): CModule->getModule('admin')
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(276): CWebApplication->createController('admin')
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#7 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/event/admin/
+---
+2014/06/03 16:35:02 [error] [exception.CException] exception 'CException' with message 'Property "AdminModule.theme" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/base/CModule.php(513): CComponent->__set('theme', 'bootstrap')
+#1 /opt/lampp/htdocs/yii/framework/base/CModule.php(86): CModule->configure(Array)
+#2 /opt/lampp/htdocs/yii/framework/YiiBase.php(206): CModule->__construct('admin', NULL, Array)
+#3 /opt/lampp/htdocs/yii/framework/base/CModule.php(282): YiiBase::createComponent('admin.AdminModu...', 'admin', NULL, Array)
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(337): CModule->getModule('admin')
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(276): CWebApplication->createController('admin')
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#7 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/event/admin/
+---
+2014/06/03 16:44:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "home".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/
+---
+2014/06/03 16:45:21 [error] [php] Trying to get property of non-object (/opt/lampp/htdocs/event/protected/components/Controller.php:26)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#1 /opt/lampp/htdocs/event/index.php(13): CWebApplication->run()
+REQUEST_URI=/event/
+in /opt/lampp/htdocs/event/protected/components/Controller.php (26)
+in /opt/lampp/htdocs/event/index.php (13)
+2014/06/04 09:02:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site/index".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/index')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/site/index
+HTTP_REFERER=http://common.localhost.com/event/
+---
+2014/06/04 09:12:24 [error] [exception.CException] exception 'CException' with message 'Property "HomeController.theme" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /opt/lampp/htdocs/event/protected/modules/admin/components/Controller.php(26): CComponent->__set('theme', 'admin_theme')
+#1 /opt/lampp/htdocs/event/protected/modules/admin/controllers/HomeController.php(12): Controller->init()
+#2 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(281): HomeController->init()
+#3 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#4 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#6 {main}
+REQUEST_URI=/event/admin/
+---
+2014/06/04 09:13:55 [error] [php] include(DefController.php): failed to open stream: No such file or directory (/opt/lampp/htdocs/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /opt/lampp/htdocs/event/protected/modules/admin/controllers/HomeController.php(3): spl_autoload_call()
+#1 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(354): require()
+#2 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(338): CWebApplication->createController()
+#3 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(276): CWebApplication->createController()
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /opt/lampp/htdocs/event/index.php(13): CWebApplication->run()
+REQUEST_URI=/event/admin/
+in /opt/lampp/htdocs/event/protected/modules/admin/controllers/HomeController.php (3)
+in /opt/lampp/htdocs/event/index.php (13)
+2014/06/04 09:14:38 [error] [php] include(DefController.php): failed to open stream: No such file or directory (/opt/lampp/htdocs/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /opt/lampp/htdocs/event/protected/modules/admin/controllers/HomeController.php(3): spl_autoload_call()
+#1 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(354): require()
+#2 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(338): CWebApplication->createController()
+#3 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(276): CWebApplication->createController()
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /opt/lampp/htdocs/event/index.php(13): CWebApplication->run()
+REQUEST_URI=/event/admin/
+in /opt/lampp/htdocs/event/protected/modules/admin/controllers/HomeController.php (3)
+in /opt/lampp/htdocs/event/index.php (13)
+2014/06/04 09:19:35 [error] [exception.CException] exception 'CException' with message 'CWebUser and its behaviors do not have a method or closure named "getCurrentTheme".' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /opt/lampp/htdocs/event/protected/modules/admin/components/Controller.php(28): CComponent->__call('getCurrentTheme', Array)
+#1 /opt/lampp/htdocs/event/protected/modules/admin/components/Controller.php(28): CWebUser->getCurrentTheme()
+#2 /opt/lampp/htdocs/event/protected/modules/admin/controllers/HomeController.php(12): Controller->init()
+#3 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(281): HomeController->init()
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#5 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/event/admin/
+---
+2014/06/04 09:19:46 [error] [exception.CException] exception 'CException' with message 'CWebApplication and its behaviors do not have a method or closure named "getCurrentTheme".' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /opt/lampp/htdocs/event/protected/modules/admin/components/Controller.php(28): CComponent->__call('getCurrentTheme', Array)
+#1 /opt/lampp/htdocs/event/protected/modules/admin/components/Controller.php(28): CWebApplication->getCurrentTheme()
+#2 /opt/lampp/htdocs/event/protected/modules/admin/controllers/HomeController.php(12): Controller->init()
+#3 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(281): HomeController->init()
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#5 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/event/admin/
+---
+2014/06/04 12:16:33 [error] [php] Object of class CTheme could not be converted to string (/opt/lampp/htdocs/event/protected/modules/admin/components/Controller.php:27)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CWebApplication->run()
+REQUEST_URI=/event/admin/
+in /opt/lampp/htdocs/event/protected/modules/admin/components/Controller.php (27)
+in /opt/lampp/htdocs/event/protected/modules/admin/controllers/HomeController.php (12)
+in /opt/lampp/htdocs/event/index.php (13)
+2014/06/04 12:16:59 [error] [php] Object of class CTheme could not be converted to string (/opt/lampp/htdocs/event/protected/modules/admin/controllers/HomeController.php:18)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(286): HomeController->runAction()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(265): HomeController->runActionWithFilters()
+#2 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): HomeController->run()
+#3 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /opt/lampp/htdocs/event/index.php(13): CWebApplication->run()
+REQUEST_URI=/event/admin/
+in /opt/lampp/htdocs/event/protected/modules/admin/controllers/HomeController.php (18)
+in /opt/lampp/htdocs/event/index.php (13)
+2014/06/04 12:23:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/img/avatar2.png".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/img/avata...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/admin/img/avatar2.png
+HTTP_REFERER=http://common.localhost.com/event/admin/
+---
+2014/06/04 12:23:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/img/avatar.png".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/img/avata...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/admin/img/avatar.png
+HTTP_REFERER=http://common.localhost.com/event/admin/
+---
+2014/06/04 12:23:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/img/avatar3.png".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/img/avata...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/admin/img/avatar3.png
+HTTP_REFERER=http://common.localhost.com/event/admin/
+---
+2014/06/04 12:23:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/img/avatar.png".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/img/avata...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/admin/img/avatar.png
+---
+2014/06/04 12:29:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/ajax/dashboard-boxrefresh-demo.php".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/ajax/dash...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/admin/ajax/dashboard-boxrefresh-demo.php
+HTTP_REFERER=http://common.localhost.com/event/admin/
+---
+2014/06/04 12:29:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/ajax/dashboard-boxrefresh-demo.php".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/ajax/dash...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/admin/ajax/dashboard-boxrefresh-demo.php
+HTTP_REFERER=http://common.localhost.com/event/admin/
+---
+2014/06/04 12:29:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/ajax/dashboard-boxrefresh-demo.php".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/ajax/dash...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/admin/ajax/dashboard-boxrefresh-demo.php
+HTTP_REFERER=http://common.localhost.com/event/admin/
+---
+2014/06/04 12:29:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/ajax/dashboard-boxrefresh-demo.php".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/ajax/dash...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/admin/ajax/dashboard-boxrefresh-demo.php
+HTTP_REFERER=http://common.localhost.com/event/admin/
+---
+2014/06/04 12:29:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/ajax/dashboard-boxrefresh-demo.php".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/ajax/dash...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/admin/ajax/dashboard-boxrefresh-demo.php
+HTTP_REFERER=http://common.localhost.com/event/admin/
+---
+2014/06/04 12:29:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/ajax/dashboard-boxrefresh-demo.php".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/ajax/dash...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/admin/ajax/dashboard-boxrefresh-demo.php
+HTTP_REFERER=http://common.localhost.com/event/admin/
+---
+2014/06/04 12:29:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/ajax/dashboard-boxrefresh-demo.php".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/ajax/dash...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/admin/ajax/dashboard-boxrefresh-demo.php
+HTTP_REFERER=http://common.localhost.com/event/admin/
+---
+2014/06/04 12:29:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/ajax/dashboard-boxrefresh-demo.php".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/ajax/dash...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/admin/ajax/dashboard-boxrefresh-demo.php
+HTTP_REFERER=http://common.localhost.com/event/admin/
+---
+2014/06/04 12:30:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/ajax/dashboard-boxrefresh-demo.php".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/ajax/dash...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/admin/ajax/dashboard-boxrefresh-demo.php
+HTTP_REFERER=http://common.localhost.com/event/admin/
+---
+2014/06/04 12:30:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/ajax/dashboard-boxrefresh-demo.php".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/ajax/dash...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/admin/ajax/dashboard-boxrefresh-demo.php
+---
+2014/06/04 12:31:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/ajax/dashboard-boxrefresh-demo.php".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/ajax/dash...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/admin/ajax/dashboard-boxrefresh-demo.php
+---
+2014/06/04 12:31:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/ajax/dashboard-boxrefresh-demo.php".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/ajax/dash...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/admin/ajax/dashboard-boxrefresh-demo.php
+---
+2014/06/04 12:32:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/ajax/dashboard-boxrefresh-demo.php".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/ajax/dash...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/admin/ajax/dashboard-boxrefresh-demo.php
+---
+2014/06/04 12:32:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/ajax/dashboard-boxrefresh-demo.php".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/ajax/dash...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/admin/ajax/dashboard-boxrefresh-demo.php
+---
+2014/06/04 12:32:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/ajax/dashboard-boxrefresh-demo".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/ajax/dash...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/admin/ajax/dashboard-boxrefresh-demo
+---
+2014/06/04 12:32:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/ajax/dashboard-boxrefresh-demo".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/ajax/dash...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/admin/ajax/dashboard-boxrefresh-demo
+---
+2014/06/04 12:32:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/ajax/dashboard-boxrefresh-demo".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/ajax/dash...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/admin/ajax/dashboard-boxrefresh-demo
+---
+2014/06/04 12:33:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/ajax/dashboard-boxrefresh-demo".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/ajax/dash...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/admin/ajax/dashboard-boxrefresh-demo
+---
+2014/06/04 12:33:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/ajax/dashboard-boxrefresh-demo".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/ajax/dash...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/admin/ajax/dashboard-boxrefresh-demo
+---
+2014/06/04 12:33:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/ajax/dashboard-boxrefresh-demo".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/ajax/dash...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/admin/ajax/dashboard-boxrefresh-demo
+---
+2014/06/04 12:33:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/ajax/dashboard-boxrefresh-demo".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/ajax/dash...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/admin/ajax/dashboard-boxrefresh-demo
+---
+2014/06/04 12:33:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/ajax/dashboard-boxrefresh-demo".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/ajax/dash...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/admin/ajax/dashboard-boxrefresh-demo
+---
+2014/06/04 12:33:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/ajax/dashboard-boxrefresh-demo".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/ajax/dash...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/admin/ajax/dashboard-boxrefresh-demo
+---
+2014/06/04 12:33:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/ajax/dashboard-boxrefresh-demo".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/ajax/dash...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/admin/ajax/dashboard-boxrefresh-demo
+---
+2014/06/04 12:33:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/ajax/dashboard-boxrefresh-demo".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/ajax/dash...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/admin/ajax/dashboard-boxrefresh-demo
+---
+2014/06/04 12:33:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/ajax/dashboard-boxrefresh-demo".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/ajax/dash...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/admin/ajax/dashboard-boxrefresh-demo
+---
+2014/06/04 12:33:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/ajax/dashboard-boxrefresh-demo".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/ajax/dash...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/admin/ajax/dashboard-boxrefresh-demo
+---
+2014/06/04 12:33:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/ajax/dashboard-boxrefresh-demo".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/ajax/dash...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/admin/ajax/dashboard-boxrefresh-demo
+---
+2014/06/04 12:33:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/ajax/dashboard-boxrefresh-demo".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/ajax/dash...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/admin/ajax/dashboard-boxrefresh-demo
+---
+2014/06/04 12:35:30 [error] [exception.CException] exception 'CException' with message 'Property "AdminModule.errorHandler" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/base/CModule.php(513): CComponent->__set('errorHandler', Array)
+#1 /opt/lampp/htdocs/yii/framework/base/CModule.php(86): CModule->configure(Array)
+#2 /opt/lampp/htdocs/yii/framework/YiiBase.php(206): CModule->__construct('admin', NULL, Array)
+#3 /opt/lampp/htdocs/yii/framework/base/CModule.php(282): YiiBase::createComponent('admin.AdminModu...', 'admin', NULL, Array)
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(337): CModule->getModule('admin')
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(276): CWebApplication->createController('admin')
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#7 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/event/admin/
+---
+2014/06/04 12:35:31 [error] [exception.CException] exception 'CException' with message 'Property "AdminModule.errorHandler" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/base/CModule.php(513): CComponent->__set('errorHandler', Array)
+#1 /opt/lampp/htdocs/yii/framework/base/CModule.php(86): CModule->configure(Array)
+#2 /opt/lampp/htdocs/yii/framework/YiiBase.php(206): CModule->__construct('admin', NULL, Array)
+#3 /opt/lampp/htdocs/yii/framework/base/CModule.php(282): YiiBase::createComponent('admin.AdminModu...', 'admin', NULL, Array)
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(337): CModule->getModule('admin')
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(276): CWebApplication->createController('admin')
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#7 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/event/admin/
+---
+2014/06/04 12:35:32 [error] [exception.CException] exception 'CException' with message 'Property "AdminModule.errorHandler" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/base/CModule.php(513): CComponent->__set('errorHandler', Array)
+#1 /opt/lampp/htdocs/yii/framework/base/CModule.php(86): CModule->configure(Array)
+#2 /opt/lampp/htdocs/yii/framework/YiiBase.php(206): CModule->__construct('admin', NULL, Array)
+#3 /opt/lampp/htdocs/yii/framework/base/CModule.php(282): YiiBase::createComponent('admin.AdminModu...', 'admin', NULL, Array)
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(337): CModule->getModule('admin')
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(276): CWebApplication->createController('admin')
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#7 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/event/admin/
+---
+2014/06/04 12:35:43 [error] [exception.CException] exception 'CException' with message 'Property "AdminModule.errorHandler" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/base/CModule.php(513): CComponent->__set('errorHandler', Array)
+#1 /opt/lampp/htdocs/yii/framework/base/CModule.php(86): CModule->configure(Array)
+#2 /opt/lampp/htdocs/yii/framework/YiiBase.php(206): CModule->__construct('admin', NULL, Array)
+#3 /opt/lampp/htdocs/yii/framework/base/CModule.php(282): YiiBase::createComponent('admin.AdminModu...', 'admin', NULL, Array)
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(337): CModule->getModule('admin')
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(276): CWebApplication->createController('admin')
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#7 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/event/admin/
+---
+2014/06/04 12:40:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/ajax/dashboard-boxrefresh-demo.php".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/ajax/dash...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/admin/ajax/dashboard-boxrefresh-demo.php
+HTTP_REFERER=http://common.localhost.com/event/admin/
+---
+2014/06/04 12:40:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/ajax/dashboard-boxrefresh-demo.php".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/ajax/dash...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/admin/ajax/dashboard-boxrefresh-demo.php
+---
+2014/06/04 12:40:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/ajax/dashboard-boxrefresh-demo.php".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/ajax/dash...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/admin/ajax/dashboard-boxrefresh-demo.php
+---
+2014/06/04 12:41:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/ajax/dashboard-boxrefresh-demo.php".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/ajax/dash...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/admin/ajax/dashboard-boxrefresh-demo.php
+---
+2014/06/04 12:41:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/ajax/dashboard-boxrefresh-demo.php".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/ajax/dash...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/admin/ajax/dashboard-boxrefresh-demo.php
+---
+2014/06/04 12:41:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/ajax/dashboard-boxrefresh-demo.php".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/ajax/dash...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/admin/ajax/dashboard-boxrefresh-demo.php
+---
+2014/06/04 12:41:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/ajax/dashboard-boxrefresh-demo.php".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/ajax/dash...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/admin/ajax/dashboard-boxrefresh-demo.php
+---
+2014/06/04 12:41:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/ajax/dashboard-boxrefresh-demo.php".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/ajax/dash...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/admin/ajax/dashboard-boxrefresh-demo.php
+---
+2014/06/04 12:41:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/ajax/dashboard-boxrefresh-demo.php".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/ajax/dash...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/admin/ajax/dashboard-boxrefresh-demo.php
+---
+2014/06/04 12:41:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/ajax/dashboard-boxrefresh-demo.php".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/ajax/dash...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/admin/ajax/dashboard-boxrefresh-demo.php
+---
+2014/06/04 12:41:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/ajax/dashboard-boxrefresh-demo.php".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/ajax/dash...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/admin/ajax/dashboard-boxrefresh-demo.php
+---
+2014/06/04 12:41:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/ajax/dashboard-boxrefresh-demo.php".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/ajax/dash...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/admin/ajax/dashboard-boxrefresh-demo.php
+---
+2014/06/04 12:41:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/ajax/dashboard-boxrefresh-demo.php".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/ajax/dash...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/admin/ajax/dashboard-boxrefresh-demo.php
+---
+2014/06/04 12:41:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/ajax/dashboard-boxrefresh-demo.php".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/ajax/dash...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/admin/ajax/dashboard-boxrefresh-demo.php
+---
+2014/06/04 12:41:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/ajax/dashboard-boxrefresh-demo.php".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/ajax/dash...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/admin/ajax/dashboard-boxrefresh-demo.php
+---
+2014/06/04 12:42:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/ajax/dashboard-boxrefresh-demo.php".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/ajax/dash...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/admin/ajax/dashboard-boxrefresh-demo.php
+---
+2014/06/04 12:42:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/ajax/dashboard-boxrefresh-demo.php".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/ajax/dash...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/admin/ajax/dashboard-boxrefresh-demo.php
+---
+2014/06/04 12:42:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/ajax/dashboard-boxrefresh-demo.php".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/ajax/dash...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/admin/ajax/dashboard-boxrefresh-demo.php
+---
+2014/06/04 12:42:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/ajax/dashboard-boxrefresh-demo.php".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/ajax/dash...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/admin/ajax/dashboard-boxrefresh-demo.php
+---
+2014/06/04 12:43:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/ajax/dashboard-boxrefresh-demo.php".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/ajax/dash...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/admin/ajax/dashboard-boxrefresh-demo.php
+---
+2014/06/04 12:44:22 [error] [exception.CException] exception 'CException' with message 'Property "AdminModule.errorHandler" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/base/CModule.php(513): CComponent->__set('errorHandler', Array)
+#1 /opt/lampp/htdocs/yii/framework/base/CModule.php(86): CModule->configure(Array)
+#2 /opt/lampp/htdocs/yii/framework/YiiBase.php(206): CModule->__construct('admin', NULL, Array)
+#3 /opt/lampp/htdocs/yii/framework/base/CModule.php(282): YiiBase::createComponent('admin.AdminModu...', 'admin', NULL, Array)
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(337): CModule->getModule('admin')
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(276): CWebApplication->createController('admin/ajax/dash...')
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/ajax/dash...')
+#7 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/event/admin/ajax/dashboard-boxrefresh-demo.php
+---
+2014/06/04 12:44:37 [error] [exception.CException] exception 'CException' with message 'Property "AdminModule.errorHandler" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/base/CModule.php(513): CComponent->__set('errorHandler', Array)
+#1 /opt/lampp/htdocs/yii/framework/base/CModule.php(86): CModule->configure(Array)
+#2 /opt/lampp/htdocs/yii/framework/YiiBase.php(206): CModule->__construct('admin', NULL, Array)
+#3 /opt/lampp/htdocs/yii/framework/base/CModule.php(282): YiiBase::createComponent('admin.AdminModu...', 'admin', NULL, Array)
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(337): CModule->getModule('admin')
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(276): CWebApplication->createController('admin/ajax/dash...')
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/ajax/dash...')
+#7 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/event/admin/ajax/dashboard-boxrefresh-demo.php
+---
+2014/06/04 12:44:38 [error] [exception.CException] exception 'CException' with message 'Property "AdminModule.errorHandler" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/base/CModule.php(513): CComponent->__set('errorHandler', Array)
+#1 /opt/lampp/htdocs/yii/framework/base/CModule.php(86): CModule->configure(Array)
+#2 /opt/lampp/htdocs/yii/framework/YiiBase.php(206): CModule->__construct('admin', NULL, Array)
+#3 /opt/lampp/htdocs/yii/framework/base/CModule.php(282): YiiBase::createComponent('admin.AdminModu...', 'admin', NULL, Array)
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(337): CModule->getModule('admin')
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(276): CWebApplication->createController('admin/ajax/dash...')
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/ajax/dash...')
+#7 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/event/admin/ajax/dashboard-boxrefresh-demo.php
+---
+2014/06/04 12:44:38 [error] [exception.CException] exception 'CException' with message 'Property "AdminModule.errorHandler" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/base/CModule.php(513): CComponent->__set('errorHandler', Array)
+#1 /opt/lampp/htdocs/yii/framework/base/CModule.php(86): CModule->configure(Array)
+#2 /opt/lampp/htdocs/yii/framework/YiiBase.php(206): CModule->__construct('admin', NULL, Array)
+#3 /opt/lampp/htdocs/yii/framework/base/CModule.php(282): YiiBase::createComponent('admin.AdminModu...', 'admin', NULL, Array)
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(337): CModule->getModule('admin')
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(276): CWebApplication->createController('admin/ajax/dash...')
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/ajax/dash...')
+#7 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/event/admin/ajax/dashboard-boxrefresh-demo.php
+---
+2014/06/04 12:44:38 [error] [exception.CException] exception 'CException' with message 'Property "AdminModule.errorHandler" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/base/CModule.php(513): CComponent->__set('errorHandler', Array)
+#1 /opt/lampp/htdocs/yii/framework/base/CModule.php(86): CModule->configure(Array)
+#2 /opt/lampp/htdocs/yii/framework/YiiBase.php(206): CModule->__construct('admin', NULL, Array)
+#3 /opt/lampp/htdocs/yii/framework/base/CModule.php(282): YiiBase::createComponent('admin.AdminModu...', 'admin', NULL, Array)
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(337): CModule->getModule('admin')
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(276): CWebApplication->createController('admin/ajax/dash...')
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/ajax/dash...')
+#7 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/event/admin/ajax/dashboard-boxrefresh-demo.php
+---
+2014/06/04 12:44:38 [error] [exception.CException] exception 'CException' with message 'Property "AdminModule.errorHandler" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/base/CModule.php(513): CComponent->__set('errorHandler', Array)
+#1 /opt/lampp/htdocs/yii/framework/base/CModule.php(86): CModule->configure(Array)
+#2 /opt/lampp/htdocs/yii/framework/YiiBase.php(206): CModule->__construct('admin', NULL, Array)
+#3 /opt/lampp/htdocs/yii/framework/base/CModule.php(282): YiiBase::createComponent('admin.AdminModu...', 'admin', NULL, Array)
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(337): CModule->getModule('admin')
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(276): CWebApplication->createController('admin/ajax/dash...')
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/ajax/dash...')
+#7 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/event/admin/ajax/dashboard-boxrefresh-demo.php
+---
+2014/06/04 12:44:39 [error] [exception.CException] exception 'CException' with message 'Property "AdminModule.errorHandler" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/base/CModule.php(513): CComponent->__set('errorHandler', Array)
+#1 /opt/lampp/htdocs/yii/framework/base/CModule.php(86): CModule->configure(Array)
+#2 /opt/lampp/htdocs/yii/framework/YiiBase.php(206): CModule->__construct('admin', NULL, Array)
+#3 /opt/lampp/htdocs/yii/framework/base/CModule.php(282): YiiBase::createComponent('admin.AdminModu...', 'admin', NULL, Array)
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(337): CModule->getModule('admin')
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(276): CWebApplication->createController('admin/ajax/dash...')
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/ajax/dash...')
+#7 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/event/admin/ajax/dashboard-boxrefresh-demo.php
+---
+2014/06/04 12:44:39 [error] [exception.CException] exception 'CException' with message 'Property "AdminModule.errorHandler" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/base/CModule.php(513): CComponent->__set('errorHandler', Array)
+#1 /opt/lampp/htdocs/yii/framework/base/CModule.php(86): CModule->configure(Array)
+#2 /opt/lampp/htdocs/yii/framework/YiiBase.php(206): CModule->__construct('admin', NULL, Array)
+#3 /opt/lampp/htdocs/yii/framework/base/CModule.php(282): YiiBase::createComponent('admin.AdminModu...', 'admin', NULL, Array)
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(337): CModule->getModule('admin')
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(276): CWebApplication->createController('admin/ajax/dash...')
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/ajax/dash...')
+#7 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/event/admin/ajax/dashboard-boxrefresh-demo.php
+---
+2014/06/04 12:44:39 [error] [exception.CException] exception 'CException' with message 'Property "AdminModule.errorHandler" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/base/CModule.php(513): CComponent->__set('errorHandler', Array)
+#1 /opt/lampp/htdocs/yii/framework/base/CModule.php(86): CModule->configure(Array)
+#2 /opt/lampp/htdocs/yii/framework/YiiBase.php(206): CModule->__construct('admin', NULL, Array)
+#3 /opt/lampp/htdocs/yii/framework/base/CModule.php(282): YiiBase::createComponent('admin.AdminModu...', 'admin', NULL, Array)
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(337): CModule->getModule('admin')
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(276): CWebApplication->createController('admin/ajax/dash...')
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/ajax/dash...')
+#7 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/event/admin/ajax/dashboard-boxrefresh-demo.php
+---
+2014/06/04 12:45:00 [error] [exception.CException] exception 'CException' with message 'Property "AdminModule.errorHandler" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/base/CModule.php(513): CComponent->__set('errorHandler', Array)
+#1 /opt/lampp/htdocs/yii/framework/base/CModule.php(86): CModule->configure(Array)
+#2 /opt/lampp/htdocs/yii/framework/YiiBase.php(206): CModule->__construct('admin', NULL, Array)
+#3 /opt/lampp/htdocs/yii/framework/base/CModule.php(282): YiiBase::createComponent('admin.AdminModu...', 'admin', NULL, Array)
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(337): CModule->getModule('admin')
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(276): CWebApplication->createController('admin/ajax/dash...')
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/ajax/dash...')
+#7 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/event/admin/ajax/dashboard-boxrefresh-demo.php
+---
+2014/06/04 12:45:00 [error] [exception.CException] exception 'CException' with message 'Property "AdminModule.errorHandler" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/base/CModule.php(513): CComponent->__set('errorHandler', Array)
+#1 /opt/lampp/htdocs/yii/framework/base/CModule.php(86): CModule->configure(Array)
+#2 /opt/lampp/htdocs/yii/framework/YiiBase.php(206): CModule->__construct('admin', NULL, Array)
+#3 /opt/lampp/htdocs/yii/framework/base/CModule.php(282): YiiBase::createComponent('admin.AdminModu...', 'admin', NULL, Array)
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(337): CModule->getModule('admin')
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(276): CWebApplication->createController('admin/ajax/dash...')
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/ajax/dash...')
+#7 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/event/admin/ajax/dashboard-boxrefresh-demo.php
+---
+2014/06/04 12:45:01 [error] [exception.CException] exception 'CException' with message 'Property "AdminModule.errorHandler" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/base/CModule.php(513): CComponent->__set('errorHandler', Array)
+#1 /opt/lampp/htdocs/yii/framework/base/CModule.php(86): CModule->configure(Array)
+#2 /opt/lampp/htdocs/yii/framework/YiiBase.php(206): CModule->__construct('admin', NULL, Array)
+#3 /opt/lampp/htdocs/yii/framework/base/CModule.php(282): YiiBase::createComponent('admin.AdminModu...', 'admin', NULL, Array)
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(337): CModule->getModule('admin')
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(276): CWebApplication->createController('admin/ajax/dash...')
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/ajax/dash...')
+#7 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/event/admin/ajax/dashboard-boxrefresh-demo.php
+---
+2014/06/04 12:45:01 [error] [exception.CException] exception 'CException' with message 'Property "AdminModule.errorHandler" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/base/CModule.php(513): CComponent->__set('errorHandler', Array)
+#1 /opt/lampp/htdocs/yii/framework/base/CModule.php(86): CModule->configure(Array)
+#2 /opt/lampp/htdocs/yii/framework/YiiBase.php(206): CModule->__construct('admin', NULL, Array)
+#3 /opt/lampp/htdocs/yii/framework/base/CModule.php(282): YiiBase::createComponent('admin.AdminModu...', 'admin', NULL, Array)
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(337): CModule->getModule('admin')
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(276): CWebApplication->createController('admin/ajax/dash...')
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/ajax/dash...')
+#7 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/event/admin/ajax/dashboard-boxrefresh-demo.php
+---
+2014/06/04 12:45:07 [error] [exception.CException] exception 'CException' with message 'Property "AdminModule.errorHandler" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/base/CModule.php(513): CComponent->__set('errorHandler', Array)
+#1 /opt/lampp/htdocs/yii/framework/base/CModule.php(86): CModule->configure(Array)
+#2 /opt/lampp/htdocs/yii/framework/YiiBase.php(206): CModule->__construct('admin', NULL, Array)
+#3 /opt/lampp/htdocs/yii/framework/base/CModule.php(282): YiiBase::createComponent('admin.AdminModu...', 'admin', NULL, Array)
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(337): CModule->getModule('admin')
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(276): CWebApplication->createController('admin/ajax/dash...')
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/ajax/dash...')
+#7 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/event/admin/ajax/dashboard-boxrefresh-demo.php
+---
+2014/06/04 12:45:08 [error] [exception.CException] exception 'CException' with message 'Property "AdminModule.errorHandler" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/base/CModule.php(513): CComponent->__set('errorHandler', Array)
+#1 /opt/lampp/htdocs/yii/framework/base/CModule.php(86): CModule->configure(Array)
+#2 /opt/lampp/htdocs/yii/framework/YiiBase.php(206): CModule->__construct('admin', NULL, Array)
+#3 /opt/lampp/htdocs/yii/framework/base/CModule.php(282): YiiBase::createComponent('admin.AdminModu...', 'admin', NULL, Array)
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(337): CModule->getModule('admin')
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(276): CWebApplication->createController('admin/ajax/dash...')
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/ajax/dash...')
+#7 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/event/admin/ajax/dashboard-boxrefresh-demo.php
+---
+2014/06/04 12:45:08 [error] [exception.CException] exception 'CException' with message 'Property "AdminModule.errorHandler" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/base/CModule.php(513): CComponent->__set('errorHandler', Array)
+#1 /opt/lampp/htdocs/yii/framework/base/CModule.php(86): CModule->configure(Array)
+#2 /opt/lampp/htdocs/yii/framework/YiiBase.php(206): CModule->__construct('admin', NULL, Array)
+#3 /opt/lampp/htdocs/yii/framework/base/CModule.php(282): YiiBase::createComponent('admin.AdminModu...', 'admin', NULL, Array)
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(337): CModule->getModule('admin')
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(276): CWebApplication->createController('admin/ajax/dash...')
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/ajax/dash...')
+#7 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/event/admin/ajax/dashboard-boxrefresh-demo.php
+---
+2014/06/04 12:45:08 [error] [exception.CException] exception 'CException' with message 'Property "AdminModule.errorHandler" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/base/CModule.php(513): CComponent->__set('errorHandler', Array)
+#1 /opt/lampp/htdocs/yii/framework/base/CModule.php(86): CModule->configure(Array)
+#2 /opt/lampp/htdocs/yii/framework/YiiBase.php(206): CModule->__construct('admin', NULL, Array)
+#3 /opt/lampp/htdocs/yii/framework/base/CModule.php(282): YiiBase::createComponent('admin.AdminModu...', 'admin', NULL, Array)
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(337): CModule->getModule('admin')
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(276): CWebApplication->createController('admin/ajax/dash...')
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/ajax/dash...')
+#7 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/event/admin/ajax/dashboard-boxrefresh-demo.php
+---
+2014/06/04 12:45:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/ajax/dashboard-boxrefresh-demo.php".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/ajax/dash...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/admin/ajax/dashboard-boxrefresh-demo.php
+---
+2014/06/04 12:45:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/ajax/dashboard-boxrefresh-demo.php".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/ajax/dash...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/admin/ajax/dashboard-boxrefresh-demo.php
+---
+2014/06/04 12:49:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/ajax/dashboard-boxrefresh-demo.php".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/ajax/dash...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/admin/ajax/dashboard-boxrefresh-demo.php
+---
+2014/06/04 12:55:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/fdgsfdgdfsg".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/fdgsfdgdf...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/admin/fdgsfdgdfsg
+---
+2014/06/04 12:55:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/fdgsfdgdfsg/fdsgfdgdfsgdsfgdfg".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/fdgsfdgdf...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/admin/fdgsfdgdfsg/fdsgfdgdfsgdsfgdfg
+---
+2014/06/04 12:55:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sdfsdafsadf".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('sdfsdafsadf')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/sdfsdafsadf
+---
+2014/06/04 12:56:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/dsfsdfaasdf".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/dsfsdfaas...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/admin/dsfsdfaasdf
+---
+2014/06/04 12:57:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/dsfsdfaasdf".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/dsfsdfaas...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/admin/dsfsdfaasdf
+---
+2014/06/04 13:09:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/dsfsdfaasdf".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/dsfsdfaas...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/admin/dsfsdfaasdf
+---
+2014/06/04 13:10:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/dsfsdfaasdf".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/dsfsdfaas...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/admin/dsfsdfaasdf
+---
+2014/06/04 13:10:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/dsfsdfaasdf".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/dsfsdfaas...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/admin/dsfsdfaasdf
+---
+2014/06/04 13:11:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/dsfsdfaasdf".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/dsfsdfaas...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/admin/dsfsdfaasdf
+---
+2014/06/04 13:11:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/dsfsdfaasdf".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/dsfsdfaas...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/admin/dsfsdfaasdf
+---
+2014/06/04 13:12:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/dsfsdfaasdf".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/dsfsdfaas...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/admin/dsfsdfaasdf
+---
+2014/06/04 13:12:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/dsfsdfaasdf".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/dsfsdfaas...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/admin/dsfsdfaasdf
+---
+2014/06/04 13:12:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/dsfsdfaasdf".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/dsfsdfaas...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/admin/dsfsdfaasdf
+---
+2014/06/04 13:13:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/dsfsdfaasdf".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/dsfsdfaas...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/admin/dsfsdfaasdf
+---
+2014/06/04 13:13:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/dsfsdfaasdf".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/dsfsdfaas...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/admin/dsfsdfaasdf
+---
+2014/06/04 13:14:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/dsfsdgfddsfg".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/dsfsdgfdd...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/admin/dsfsdgfddsfg
+---
+2014/06/04 13:15:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/dsfsdgfddsfg".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/dsfsdgfdd...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/admin/dsfsdgfddsfg
+---
+2014/06/04 13:16:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/dsfsdgfddsfg".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/dsfsdgfdd...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/admin/dsfsdgfddsfg
+---
+2014/06/04 13:16:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/dsfsdgfddsfg".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/dsfsdgfdd...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/admin/dsfsdgfddsfg
+---
+2014/06/04 13:16:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/dsfsdgfddsfg".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/dsfsdgfdd...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/admin/dsfsdgfddsfg
+---
+2014/06/04 13:17:53 [error] [exception.CException] exception 'CException' with message 'Property "AdminModule.errorHandler" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/base/CModule.php(513): CComponent->__set('errorHandler', Array)
+#1 /opt/lampp/htdocs/yii/framework/base/CModule.php(86): CModule->configure(Array)
+#2 /opt/lampp/htdocs/yii/framework/YiiBase.php(206): CModule->__construct('admin', NULL, Array)
+#3 /opt/lampp/htdocs/yii/framework/base/CModule.php(282): YiiBase::createComponent('admin.AdminModu...', 'admin', NULL, Array)
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(337): CModule->getModule('admin')
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(276): CWebApplication->createController('admin/dsfsdgfdd...')
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/dsfsdgfdd...')
+#7 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/event/admin/dsfsdgfddsfg
+---
+2014/06/04 13:19:41 [error] [exception.CException] exception 'CException' with message 'Property "AdminModule.errorHandler" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/base/CModule.php(513): CComponent->__set('errorHandler', Array)
+#1 /opt/lampp/htdocs/yii/framework/base/CModule.php(86): CModule->configure(Array)
+#2 /opt/lampp/htdocs/yii/framework/YiiBase.php(206): CModule->__construct('admin', NULL, Array)
+#3 /opt/lampp/htdocs/yii/framework/base/CModule.php(282): YiiBase::createComponent('admin.AdminModu...', 'admin', NULL, Array)
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(337): CModule->getModule('admin')
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(276): CWebApplication->createController('admin/dsfsdgfdd...')
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/dsfsdgfdd...')
+#7 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/event/admin/dsfsdgfddsfg
+---
+2014/06/04 13:19:42 [error] [exception.CException] exception 'CException' with message 'Property "AdminModule.errorHandler" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/base/CModule.php(513): CComponent->__set('errorHandler', Array)
+#1 /opt/lampp/htdocs/yii/framework/base/CModule.php(86): CModule->configure(Array)
+#2 /opt/lampp/htdocs/yii/framework/YiiBase.php(206): CModule->__construct('admin', NULL, Array)
+#3 /opt/lampp/htdocs/yii/framework/base/CModule.php(282): YiiBase::createComponent('admin.AdminModu...', 'admin', NULL, Array)
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(337): CModule->getModule('admin')
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(276): CWebApplication->createController('admin/dsfsdgfdd...')
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/dsfsdgfdd...')
+#7 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/event/admin/dsfsdgfddsfg
+---
+2014/06/04 13:19:42 [error] [exception.CException] exception 'CException' with message 'Property "AdminModule.errorHandler" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/base/CModule.php(513): CComponent->__set('errorHandler', Array)
+#1 /opt/lampp/htdocs/yii/framework/base/CModule.php(86): CModule->configure(Array)
+#2 /opt/lampp/htdocs/yii/framework/YiiBase.php(206): CModule->__construct('admin', NULL, Array)
+#3 /opt/lampp/htdocs/yii/framework/base/CModule.php(282): YiiBase::createComponent('admin.AdminModu...', 'admin', NULL, Array)
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(337): CModule->getModule('admin')
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(276): CWebApplication->createController('admin/dsfsdgfdd...')
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/dsfsdgfdd...')
+#7 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/event/admin/dsfsdgfddsfg
+---
+2014/06/04 13:19:42 [error] [exception.CException] exception 'CException' with message 'Property "AdminModule.errorHandler" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/base/CModule.php(513): CComponent->__set('errorHandler', Array)
+#1 /opt/lampp/htdocs/yii/framework/base/CModule.php(86): CModule->configure(Array)
+#2 /opt/lampp/htdocs/yii/framework/YiiBase.php(206): CModule->__construct('admin', NULL, Array)
+#3 /opt/lampp/htdocs/yii/framework/base/CModule.php(282): YiiBase::createComponent('admin.AdminModu...', 'admin', NULL, Array)
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(337): CModule->getModule('admin')
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(276): CWebApplication->createController('admin/dsfsdgfdd...')
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/dsfsdgfdd...')
+#7 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/event/admin/dsfsdgfddsfg
+---
+2014/06/04 13:19:42 [error] [exception.CException] exception 'CException' with message 'Property "AdminModule.errorHandler" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/base/CModule.php(513): CComponent->__set('errorHandler', Array)
+#1 /opt/lampp/htdocs/yii/framework/base/CModule.php(86): CModule->configure(Array)
+#2 /opt/lampp/htdocs/yii/framework/YiiBase.php(206): CModule->__construct('admin', NULL, Array)
+#3 /opt/lampp/htdocs/yii/framework/base/CModule.php(282): YiiBase::createComponent('admin.AdminModu...', 'admin', NULL, Array)
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(337): CModule->getModule('admin')
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(276): CWebApplication->createController('admin/dsfsdgfdd...')
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/dsfsdgfdd...')
+#7 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/event/admin/dsfsdgfddsfg
+---
+2014/06/04 13:19:42 [error] [exception.CException] exception 'CException' with message 'Property "AdminModule.errorHandler" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/base/CModule.php(513): CComponent->__set('errorHandler', Array)
+#1 /opt/lampp/htdocs/yii/framework/base/CModule.php(86): CModule->configure(Array)
+#2 /opt/lampp/htdocs/yii/framework/YiiBase.php(206): CModule->__construct('admin', NULL, Array)
+#3 /opt/lampp/htdocs/yii/framework/base/CModule.php(282): YiiBase::createComponent('admin.AdminModu...', 'admin', NULL, Array)
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(337): CModule->getModule('admin')
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(276): CWebApplication->createController('admin/dsfsdgfdd...')
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/dsfsdgfdd...')
+#7 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/event/admin/dsfsdgfddsfg
+---
+2014/06/04 13:19:42 [error] [exception.CException] exception 'CException' with message 'Property "AdminModule.errorHandler" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/base/CModule.php(513): CComponent->__set('errorHandler', Array)
+#1 /opt/lampp/htdocs/yii/framework/base/CModule.php(86): CModule->configure(Array)
+#2 /opt/lampp/htdocs/yii/framework/YiiBase.php(206): CModule->__construct('admin', NULL, Array)
+#3 /opt/lampp/htdocs/yii/framework/base/CModule.php(282): YiiBase::createComponent('admin.AdminModu...', 'admin', NULL, Array)
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(337): CModule->getModule('admin')
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(276): CWebApplication->createController('admin/dsfsdgfdd...')
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/dsfsdgfdd...')
+#7 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/event/admin/dsfsdgfddsfg
+---
+2014/06/04 13:19:43 [error] [exception.CException] exception 'CException' with message 'Property "AdminModule.errorHandler" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/base/CModule.php(513): CComponent->__set('errorHandler', Array)
+#1 /opt/lampp/htdocs/yii/framework/base/CModule.php(86): CModule->configure(Array)
+#2 /opt/lampp/htdocs/yii/framework/YiiBase.php(206): CModule->__construct('admin', NULL, Array)
+#3 /opt/lampp/htdocs/yii/framework/base/CModule.php(282): YiiBase::createComponent('admin.AdminModu...', 'admin', NULL, Array)
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(337): CModule->getModule('admin')
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(276): CWebApplication->createController('admin/dsfsdgfdd...')
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/dsfsdgfdd...')
+#7 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/event/admin/dsfsdgfddsfg
+---
+2014/06/04 13:19:43 [error] [exception.CException] exception 'CException' with message 'Property "AdminModule.errorHandler" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/base/CModule.php(513): CComponent->__set('errorHandler', Array)
+#1 /opt/lampp/htdocs/yii/framework/base/CModule.php(86): CModule->configure(Array)
+#2 /opt/lampp/htdocs/yii/framework/YiiBase.php(206): CModule->__construct('admin', NULL, Array)
+#3 /opt/lampp/htdocs/yii/framework/base/CModule.php(282): YiiBase::createComponent('admin.AdminModu...', 'admin', NULL, Array)
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(337): CModule->getModule('admin')
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(276): CWebApplication->createController('admin/dsfsdgfdd...')
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/dsfsdgfdd...')
+#7 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/event/admin/dsfsdgfddsfg
+---
+2014/06/04 13:19:43 [error] [exception.CException] exception 'CException' with message 'Property "AdminModule.errorHandler" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/base/CModule.php(513): CComponent->__set('errorHandler', Array)
+#1 /opt/lampp/htdocs/yii/framework/base/CModule.php(86): CModule->configure(Array)
+#2 /opt/lampp/htdocs/yii/framework/YiiBase.php(206): CModule->__construct('admin', NULL, Array)
+#3 /opt/lampp/htdocs/yii/framework/base/CModule.php(282): YiiBase::createComponent('admin.AdminModu...', 'admin', NULL, Array)
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(337): CModule->getModule('admin')
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(276): CWebApplication->createController('admin/dsfsdgfdd...')
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/dsfsdgfdd...')
+#7 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/event/admin/dsfsdgfddsfg
+---
+2014/06/04 13:21:06 [error] [exception.CException] exception 'CException' with message 'Property "AdminModule.errorHandler" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/base/CModule.php(513): CComponent->__set('errorHandler', Array)
+#1 /opt/lampp/htdocs/yii/framework/base/CModule.php(86): CModule->configure(Array)
+#2 /opt/lampp/htdocs/yii/framework/YiiBase.php(206): CModule->__construct('admin', NULL, Array)
+#3 /opt/lampp/htdocs/yii/framework/base/CModule.php(282): YiiBase::createComponent('admin.AdminModu...', 'admin', NULL, Array)
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(337): CModule->getModule('admin')
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(276): CWebApplication->createController('admin/dsfsdgfdd...')
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/dsfsdgfdd...')
+#7 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/event/admin/dsfsdgfddsfg
+---
+2014/06/04 13:21:06 [error] [exception.CException] exception 'CException' with message 'Property "AdminModule.errorHandler" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/base/CModule.php(513): CComponent->__set('errorHandler', Array)
+#1 /opt/lampp/htdocs/yii/framework/base/CModule.php(86): CModule->configure(Array)
+#2 /opt/lampp/htdocs/yii/framework/YiiBase.php(206): CModule->__construct('admin', NULL, Array)
+#3 /opt/lampp/htdocs/yii/framework/base/CModule.php(282): YiiBase::createComponent('admin.AdminModu...', 'admin', NULL, Array)
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(337): CModule->getModule('admin')
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(276): CWebApplication->createController('admin/dsfsdgfdd...')
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/dsfsdgfdd...')
+#7 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/event/admin/dsfsdgfddsfg
+---
+2014/06/04 13:21:07 [error] [exception.CException] exception 'CException' with message 'Property "AdminModule.errorHandler" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/base/CModule.php(513): CComponent->__set('errorHandler', Array)
+#1 /opt/lampp/htdocs/yii/framework/base/CModule.php(86): CModule->configure(Array)
+#2 /opt/lampp/htdocs/yii/framework/YiiBase.php(206): CModule->__construct('admin', NULL, Array)
+#3 /opt/lampp/htdocs/yii/framework/base/CModule.php(282): YiiBase::createComponent('admin.AdminModu...', 'admin', NULL, Array)
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(337): CModule->getModule('admin')
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(276): CWebApplication->createController('admin/dsfsdgfdd...')
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/dsfsdgfdd...')
+#7 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/event/admin/dsfsdgfddsfg
+---
+2014/06/04 13:21:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/dsfsdgfddsfg".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/dsfsdgfdd...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/admin/dsfsdgfddsfg
+---
+2014/06/04 13:22:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/dsfsdgfddsfg".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/dsfsdgfdd...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/admin/dsfsdgfddsfg
+---
+2014/06/04 13:25:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/dsfsdgfddsfg".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/dsfsdgfdd...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/admin/dsfsdgfddsfg
+---
+2014/06/04 13:33:28 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.input" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/base/CModule.php(105): CComponent->__get('input')
+#1 /opt/lampp/htdocs/event/protected/modules/admin/controllers/HomeController.php(17): CModule->__get('input')
+#2 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): HomeController->actionIndex()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('')
+#7 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#8 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/event/admin/
+---
+2014/06/04 13:34:18 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.input" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/base/CModule.php(105): CComponent->__get('input')
+#1 /opt/lampp/htdocs/event/protected/modules/admin/controllers/HomeController.php(17): CModule->__get('input')
+#2 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): HomeController->actionIndex()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('')
+#7 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#8 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/event/admin/
+---
+2014/06/04 13:34:19 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.input" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/base/CModule.php(105): CComponent->__get('input')
+#1 /opt/lampp/htdocs/event/protected/modules/admin/controllers/HomeController.php(17): CModule->__get('input')
+#2 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): HomeController->actionIndex()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('')
+#7 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#8 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/event/admin/
+---
+2014/06/04 13:34:19 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.input" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/base/CModule.php(105): CComponent->__get('input')
+#1 /opt/lampp/htdocs/event/protected/modules/admin/controllers/HomeController.php(17): CModule->__get('input')
+#2 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): HomeController->actionIndex()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('')
+#7 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#8 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/event/admin/
+---
+2014/06/04 13:34:19 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.input" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/base/CModule.php(105): CComponent->__get('input')
+#1 /opt/lampp/htdocs/event/protected/modules/admin/controllers/HomeController.php(17): CModule->__get('input')
+#2 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): HomeController->actionIndex()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('')
+#7 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#8 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/event/admin/
+---
+2014/06/04 13:35:04 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.input" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/base/CModule.php(105): CComponent->__get('input')
+#1 /opt/lampp/htdocs/event/protected/modules/admin/controllers/HomeController.php(17): CModule->__get('input')
+#2 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): HomeController->actionIndex()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('')
+#7 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#8 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/event/admin/
+---
+2014/06/04 13:35:05 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.input" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/base/CModule.php(105): CComponent->__get('input')
+#1 /opt/lampp/htdocs/event/protected/modules/admin/controllers/HomeController.php(17): CModule->__get('input')
+#2 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): HomeController->actionIndex()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('')
+#7 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#8 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/event/admin/
+---
+2014/06/04 13:35:05 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.input" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/base/CModule.php(105): CComponent->__get('input')
+#1 /opt/lampp/htdocs/event/protected/modules/admin/controllers/HomeController.php(17): CModule->__get('input')
+#2 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): HomeController->actionIndex()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('')
+#7 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#8 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/event/admin/
+---
+2014/06/04 13:35:05 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.input" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/base/CModule.php(105): CComponent->__get('input')
+#1 /opt/lampp/htdocs/event/protected/modules/admin/controllers/HomeController.php(17): CModule->__get('input')
+#2 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): HomeController->actionIndex()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('')
+#7 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#8 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/event/admin/
+---
+2014/06/04 13:35:05 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.input" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/base/CModule.php(105): CComponent->__get('input')
+#1 /opt/lampp/htdocs/event/protected/modules/admin/controllers/HomeController.php(17): CModule->__get('input')
+#2 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): HomeController->actionIndex()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('')
+#7 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#8 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/event/admin/
+---
+2014/06/04 13:35:05 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.input" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/base/CModule.php(105): CComponent->__get('input')
+#1 /opt/lampp/htdocs/event/protected/modules/admin/controllers/HomeController.php(17): CModule->__get('input')
+#2 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): HomeController->actionIndex()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('')
+#7 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#8 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/event/admin/
+---
+2014/06/04 13:35:05 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.input" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/base/CModule.php(105): CComponent->__get('input')
+#1 /opt/lampp/htdocs/event/protected/modules/admin/controllers/HomeController.php(17): CModule->__get('input')
+#2 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): HomeController->actionIndex()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('')
+#7 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#8 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/event/admin/
+---
+2014/06/04 13:35:06 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.input" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/base/CModule.php(105): CComponent->__get('input')
+#1 /opt/lampp/htdocs/event/protected/modules/admin/controllers/HomeController.php(17): CModule->__get('input')
+#2 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): HomeController->actionIndex()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('')
+#7 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#8 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/event/admin/
+---
+2014/06/04 13:35:06 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.input" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/base/CModule.php(105): CComponent->__get('input')
+#1 /opt/lampp/htdocs/event/protected/modules/admin/controllers/HomeController.php(17): CModule->__get('input')
+#2 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): HomeController->actionIndex()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('')
+#7 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#8 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/event/admin/
+---
+2014/06/04 13:35:06 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.input" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/base/CModule.php(105): CComponent->__get('input')
+#1 /opt/lampp/htdocs/event/protected/modules/admin/controllers/HomeController.php(17): CModule->__get('input')
+#2 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): HomeController->actionIndex()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('')
+#7 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#8 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/event/admin/
+---
+2014/06/04 13:35:21 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.input" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/base/CModule.php(105): CComponent->__get('input')
+#1 /opt/lampp/htdocs/event/protected/modules/admin/controllers/HomeController.php(17): CModule->__get('input')
+#2 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): HomeController->actionIndex()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('')
+#7 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#8 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/event/admin/
+---
+2014/06/04 13:35:22 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.input" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/base/CModule.php(105): CComponent->__get('input')
+#1 /opt/lampp/htdocs/event/protected/modules/admin/controllers/HomeController.php(17): CModule->__get('input')
+#2 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): HomeController->actionIndex()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('')
+#7 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#8 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/event/admin/
+---
+2014/06/04 13:35:22 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.input" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/base/CModule.php(105): CComponent->__get('input')
+#1 /opt/lampp/htdocs/event/protected/modules/admin/controllers/HomeController.php(17): CModule->__get('input')
+#2 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): HomeController->actionIndex()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('')
+#7 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#8 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/event/admin/
+---
+2014/06/04 13:35:37 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.input" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/base/CModule.php(105): CComponent->__get('input')
+#1 /opt/lampp/htdocs/event/protected/modules/admin/controllers/HomeController.php(17): CModule->__get('input')
+#2 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): HomeController->actionIndex()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('')
+#7 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#8 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/event/admin/
+---
+2014/06/04 13:35:37 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.input" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/base/CModule.php(105): CComponent->__get('input')
+#1 /opt/lampp/htdocs/event/protected/modules/admin/controllers/HomeController.php(17): CModule->__get('input')
+#2 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): HomeController->actionIndex()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('')
+#7 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#8 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/event/admin/
+---
+2014/06/04 13:35:37 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.input" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/base/CModule.php(105): CComponent->__get('input')
+#1 /opt/lampp/htdocs/event/protected/modules/admin/controllers/HomeController.php(17): CModule->__get('input')
+#2 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): HomeController->actionIndex()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('')
+#7 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#8 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/event/admin/
+---
+2014/06/04 13:35:38 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.input" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/base/CModule.php(105): CComponent->__get('input')
+#1 /opt/lampp/htdocs/event/protected/modules/admin/controllers/HomeController.php(17): CModule->__get('input')
+#2 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): HomeController->actionIndex()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('')
+#7 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#8 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/event/admin/
+---
+2014/06/04 13:35:38 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.input" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/base/CModule.php(105): CComponent->__get('input')
+#1 /opt/lampp/htdocs/event/protected/modules/admin/controllers/HomeController.php(17): CModule->__get('input')
+#2 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): HomeController->actionIndex()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('')
+#7 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#8 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/event/admin/
+---
+2014/06/04 13:35:38 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.input" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/base/CModule.php(105): CComponent->__get('input')
+#1 /opt/lampp/htdocs/event/protected/modules/admin/controllers/HomeController.php(17): CModule->__get('input')
+#2 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): HomeController->actionIndex()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('')
+#7 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#8 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/event/admin/
+---
+2014/06/04 13:35:38 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.input" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/base/CModule.php(105): CComponent->__get('input')
+#1 /opt/lampp/htdocs/event/protected/modules/admin/controllers/HomeController.php(17): CModule->__get('input')
+#2 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): HomeController->actionIndex()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('')
+#7 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#8 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/event/admin/
+---
+2014/06/04 13:37:55 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.input" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/base/CModule.php(105): CComponent->__get('input')
+#1 /opt/lampp/htdocs/event/protected/modules/admin/controllers/HomeController.php(17): CModule->__get('input')
+#2 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): HomeController->actionIndex()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('')
+#7 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#8 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/event/admin/
+---
+2014/06/04 13:37:56 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.input" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/base/CModule.php(105): CComponent->__get('input')
+#1 /opt/lampp/htdocs/event/protected/modules/admin/controllers/HomeController.php(17): CModule->__get('input')
+#2 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): HomeController->actionIndex()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('')
+#7 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#8 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/event/admin/
+---
+2014/06/04 13:37:56 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.input" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/base/CModule.php(105): CComponent->__get('input')
+#1 /opt/lampp/htdocs/event/protected/modules/admin/controllers/HomeController.php(17): CModule->__get('input')
+#2 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): HomeController->actionIndex()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('')
+#7 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#8 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/event/admin/
+---
+2014/06/04 13:37:56 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.input" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/base/CModule.php(105): CComponent->__get('input')
+#1 /opt/lampp/htdocs/event/protected/modules/admin/controllers/HomeController.php(17): CModule->__get('input')
+#2 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): HomeController->actionIndex()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('')
+#7 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#8 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/event/admin/
+---
+2014/06/04 13:37:56 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.input" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/base/CModule.php(105): CComponent->__get('input')
+#1 /opt/lampp/htdocs/event/protected/modules/admin/controllers/HomeController.php(17): CModule->__get('input')
+#2 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): HomeController->actionIndex()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('')
+#7 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#8 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/event/admin/
+---
+2014/06/04 13:37:56 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.input" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/base/CModule.php(105): CComponent->__get('input')
+#1 /opt/lampp/htdocs/event/protected/modules/admin/controllers/HomeController.php(17): CModule->__get('input')
+#2 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): HomeController->actionIndex()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('')
+#7 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#8 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/event/admin/
+---
+2014/06/04 13:37:56 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.input" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/base/CModule.php(105): CComponent->__get('input')
+#1 /opt/lampp/htdocs/event/protected/modules/admin/controllers/HomeController.php(17): CModule->__get('input')
+#2 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): HomeController->actionIndex()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('')
+#7 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#8 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/event/admin/
+---
+2014/06/04 13:40:38 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.input" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/base/CModule.php(105): CComponent->__get('input')
+#1 /opt/lampp/htdocs/event/protected/modules/admin/controllers/HomeController.php(17): CModule->__get('input')
+#2 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): HomeController->actionIndex()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('')
+#7 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#8 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/event/admin/
+---
+2014/06/04 15:05:31 [error] [exception.CException] exception 'CException' with message 'Alias "bootstrap.widgets.TbBreadcrumbs" is invalid. Make sure it points to an existing directory or file.' in /opt/lampp/htdocs/yii/framework/YiiBase.php:347
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWidgetFactory.php(146): YiiBase::import('bootstrap.widge...', true)
+#1 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(146): CWidgetFactory->createWidget(Object(HomeController), 'bootstrap.widge...', Array)
+#2 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(172): CBaseController->createWidget('bootstrap.widge...', Array)
+#3 /opt/lampp/htdocs/event/themes/admin_theme/views/layouts/main.php(410): CBaseController->widget('bootstrap.widge...', Array)
+#4 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(126): require('/opt/lampp/htdo...')
+#5 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/opt/lampp/htdo...', Array, true)
+#6 /opt/lampp/htdocs/yii/framework/web/CController.php(784): CBaseController->renderFile('/opt/lampp/htdo...', Array, true)
+#7 /opt/lampp/htdocs/event/protected/modules/admin/controllers/HomeController.php(21): CController->render('index')
+#8 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): HomeController->actionIndex()
+#9 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /opt/lampp/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#11 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('')
+#13 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#14 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/event/admin/
+---
+2014/06/04 15:07:48 [error] [exception.CException] exception 'CException' with message 'Alias "bootstrap.widgets.TbBreadcrumbs" is invalid. Make sure it points to an existing directory or file.' in /opt/lampp/htdocs/yii/framework/YiiBase.php:347
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWidgetFactory.php(146): YiiBase::import('bootstrap.widge...', true)
+#1 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(146): CWidgetFactory->createWidget(Object(HomeController), 'bootstrap.widge...', Array)
+#2 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(172): CBaseController->createWidget('bootstrap.widge...', Array)
+#3 /opt/lampp/htdocs/event/themes/admin_theme/views/layouts/main.php(410): CBaseController->widget('bootstrap.widge...', Array)
+#4 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(126): require('/opt/lampp/htdo...')
+#5 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/opt/lampp/htdo...', Array, true)
+#6 /opt/lampp/htdocs/yii/framework/web/CController.php(784): CBaseController->renderFile('/opt/lampp/htdo...', Array, true)
+#7 /opt/lampp/htdocs/event/protected/modules/admin/controllers/HomeController.php(21): CController->render('index')
+#8 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): HomeController->actionIndex()
+#9 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /opt/lampp/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#11 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('')
+#13 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#14 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/event/admin/
+---
+2014/06/04 15:09:40 [error] [exception.CException] exception 'CException' with message 'Alias "bootstrap.widgets.TbBreadcrumbs" is invalid. Make sure it points to an existing directory or file.' in /opt/lampp/htdocs/yii/framework/YiiBase.php:347
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWidgetFactory.php(146): YiiBase::import('bootstrap.widge...', true)
+#1 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(146): CWidgetFactory->createWidget(Object(HomeController), 'bootstrap.widge...', Array)
+#2 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(172): CBaseController->createWidget('bootstrap.widge...', Array)
+#3 /opt/lampp/htdocs/event/themes/admin_theme/views/layouts/main.php(410): CBaseController->widget('bootstrap.widge...', Array)
+#4 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(126): require('/opt/lampp/htdo...')
+#5 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/opt/lampp/htdo...', Array, true)
+#6 /opt/lampp/htdocs/yii/framework/web/CController.php(784): CBaseController->renderFile('/opt/lampp/htdo...', Array, true)
+#7 /opt/lampp/htdocs/event/protected/modules/admin/controllers/HomeController.php(21): CController->render('index')
+#8 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): HomeController->actionIndex()
+#9 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /opt/lampp/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#11 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('')
+#13 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#14 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/event/admin/
+---
+2014/06/04 15:09:41 [error] [exception.CException] exception 'CException' with message 'Alias "bootstrap.widgets.TbBreadcrumbs" is invalid. Make sure it points to an existing directory or file.' in /opt/lampp/htdocs/yii/framework/YiiBase.php:347
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWidgetFactory.php(146): YiiBase::import('bootstrap.widge...', true)
+#1 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(146): CWidgetFactory->createWidget(Object(HomeController), 'bootstrap.widge...', Array)
+#2 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(172): CBaseController->createWidget('bootstrap.widge...', Array)
+#3 /opt/lampp/htdocs/event/themes/admin_theme/views/layouts/main.php(410): CBaseController->widget('bootstrap.widge...', Array)
+#4 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(126): require('/opt/lampp/htdo...')
+#5 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/opt/lampp/htdo...', Array, true)
+#6 /opt/lampp/htdocs/yii/framework/web/CController.php(784): CBaseController->renderFile('/opt/lampp/htdo...', Array, true)
+#7 /opt/lampp/htdocs/event/protected/modules/admin/controllers/HomeController.php(21): CController->render('index')
+#8 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): HomeController->actionIndex()
+#9 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /opt/lampp/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#11 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('')
+#13 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#14 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/event/admin/
+---
+2014/06/04 15:09:42 [error] [exception.CException] exception 'CException' with message 'Alias "bootstrap.widgets.TbBreadcrumbs" is invalid. Make sure it points to an existing directory or file.' in /opt/lampp/htdocs/yii/framework/YiiBase.php:347
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWidgetFactory.php(146): YiiBase::import('bootstrap.widge...', true)
+#1 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(146): CWidgetFactory->createWidget(Object(HomeController), 'bootstrap.widge...', Array)
+#2 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(172): CBaseController->createWidget('bootstrap.widge...', Array)
+#3 /opt/lampp/htdocs/event/themes/admin_theme/views/layouts/main.php(410): CBaseController->widget('bootstrap.widge...', Array)
+#4 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(126): require('/opt/lampp/htdo...')
+#5 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/opt/lampp/htdo...', Array, true)
+#6 /opt/lampp/htdocs/yii/framework/web/CController.php(784): CBaseController->renderFile('/opt/lampp/htdo...', Array, true)
+#7 /opt/lampp/htdocs/event/protected/modules/admin/controllers/HomeController.php(21): CController->render('index')
+#8 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): HomeController->actionIndex()
+#9 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /opt/lampp/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#11 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('')
+#13 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#14 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/event/admin/
+---
+2014/06/04 15:25:44 [error] [exception.CException] exception 'CException' with message 'Property "HomeController.links2" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /opt/lampp/htdocs/event/protected/modules/admin/controllers/HomeController.php(21): CComponent->__set('links2', Array)
+#1 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): HomeController->actionIndex()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('')
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin')
+#7 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/event/admin
+HTTP_REFERER=http://common.localhost.com/event/admin
+---
+2014/06/04 15:28:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "pages/widgets.html".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('pages/widgets.h...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/pages/widgets.html
+HTTP_REFERER=http://common.localhost.com/event/admin
+---
+2014/06/04 15:28:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/afdsdsfdsf".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/afdsdsfds...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/admin/afdsdsfdsf
+---
+2014/06/04 15:30:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/afdsdsfdsf".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/afdsdsfds...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/admin/afdsdsfdsf
+---
+2014/06/04 15:33:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/afdsdsfdsf".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/afdsdsfds...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/admin/afdsdsfdsf
+---
+2014/06/04 15:34:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/afdsdsfdsf".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/afdsdsfds...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/admin/afdsdsfdsf
+---
+2014/06/04 15:36:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/afdsdsfdsf".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/afdsdsfds...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/admin/afdsdsfdsf
+---
+2014/06/04 15:37:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/index.html".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/index.htm...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/admin/index.html
+HTTP_REFERER=http://common.localhost.com/event/admin/
+---
+2014/06/04 15:39:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/pages/mailbox.html".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/pages/mai...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/admin/pages/mailbox.html
+HTTP_REFERER=http://common.localhost.com/event/admin/
+---
+2014/06/04 15:41:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site/login".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/login')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/site/login
+HTTP_REFERER=http://common.localhost.com/event/
+---
+2014/06/04 15:41:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site/contact".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/contact')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/site/contact
+HTTP_REFERER=http://common.localhost.com/event/site/login
+---
+2014/06/04 15:41:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site/page".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/site/page?view=about
+HTTP_REFERER=http://common.localhost.com/event/site/contact
+---
+2014/06/04 15:41:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site/index".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/index')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/site/index
+HTTP_REFERER=http://common.localhost.com/event/site/page?view=about
+---
+2014/06/04 15:41:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site/contact".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/contact')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/site/contact
+HTTP_REFERER=http://common.localhost.com/event/site/index
+---
+2014/06/04 15:48:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site/contact".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/contact')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/site/contact
+HTTP_REFERER=http://common.localhost.com/event/site/index
+---
+2014/06/04 15:48:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site/index".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/index')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/site/index
+HTTP_REFERER=http://common.localhost.com/event/site/page?view=about
+---
+2014/06/04 15:48:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site/page".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/site/page?view=about
+HTTP_REFERER=http://common.localhost.com/event/site/contact
+---
+2014/06/04 15:48:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site/contact".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/contact')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/site/contact
+HTTP_REFERER=http://common.localhost.com/event/site/login
+---
+2014/06/04 15:48:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site/login".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/login')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/site/login
+HTTP_REFERER=http://common.localhost.com/event/
+---
