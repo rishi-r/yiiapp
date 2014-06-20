@@ -8,6 +8,7 @@
 
 
 Yii::setPathOfAlias('admin', dirname(__FILE__) . '/../modules/admin');
+Yii::setPathOfAlias('/', dirname(__FILE__) . '/../modules/site');
 Yii::setPathOfAlias('bootstrap', dirname(__FILE__).'/../extensions/bootstrap');
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
@@ -35,8 +36,11 @@ return array(
 		'admin' => array(
                     'defaultController' => 'home',
                 ),
+		'site' => array(
+                    'defaultController' => 'home',
+                ),
 	),
-        'defaultController' => 'home',
+        //'defaultController' => 'home',
 	// application components
 	'components'=>array(
                 'input'=>array(   
@@ -76,7 +80,7 @@ return array(
 		
 		'errorHandler'=>array(
 			// use 'site/error' action to display errors
-			'errorAction'=>'home/error',
+			'errorAction'=>'site/home/error',
 		),
 		'log'=>array(
 			'class'=>'CLogRouter',

@@ -2151,3 +2151,95 @@ Stack trace:
 REQUEST_URI=/event/site/login
 HTTP_REFERER=http://common.localhost.com/event/
 ---
+2014/06/12 08:52:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/pages/widgets.html".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/pages/wid...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/admin/pages/widgets.html
+HTTP_REFERER=http://common.localhost.com/event/admin/
+---
+2014/06/20 10:23:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "home".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/
+---
+2014/06/20 10:25:00 [error] [exception.CException] exception 'CException' with message 'Alias "site.SiteModule" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /opt/lampp/htdocs/yii/framework/YiiBase.php:322
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/YiiBase.php(196): YiiBase::import('site.SiteModule', true)
+#1 /opt/lampp/htdocs/yii/framework/base/CModule.php(282): YiiBase::createComponent('site.SiteModule', 'site', NULL, Array)
+#2 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(337): CModule->getModule('site')
+#3 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(276): CWebApplication->createController('')
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#5 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/event/
+---
+2014/06/20 10:26:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "index.html".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('index.html')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/index.html
+HTTP_REFERER=http://common.localhost.com/event/
+---
+2014/06/20 10:28:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "index.html".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('index.html')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/index.html
+HTTP_REFERER=http://common.localhost.com/event/
+---
+2014/06/20 10:29:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "index.html".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('index.html')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/index.html
+HTTP_REFERER=http://common.localhost.com/event/
+---
+2014/06/20 10:29:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "index.html".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('index.html')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/index.html
+HTTP_REFERER=http://common.localhost.com/event/
+---
+2014/06/20 10:55:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "index.html".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('index.html')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/index.html
+HTTP_REFERER=http://common.localhost.com/event/
+---
+2014/06/20 10:56:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "pages/charts/morris.html".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('pages/charts/mo...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/pages/charts/morris.html
+HTTP_REFERER=http://common.localhost.com/event/index.html
+---
+2014/06/20 10:56:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "pages/charts/index.html".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('pages/charts/in...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/pages/charts/index.html
+HTTP_REFERER=http://common.localhost.com/event/pages/charts/morris.html
+---
