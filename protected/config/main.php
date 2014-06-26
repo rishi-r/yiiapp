@@ -48,6 +48,10 @@ return array(
                     'cleanPost'     => true,  
                     'cleanGet'      => true,  
                 ),
+                'user_agent'=>array(   
+                    'class'         => 'User_agent'  
+                    
+                ),
 		'user'=>array(
 			// enable cookie-based authentication
 			'allowAutoLogin'=>true,

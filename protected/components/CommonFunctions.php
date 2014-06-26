@@ -193,4 +193,49 @@ class CommonFunctions extends CComponent {
         }
         return $password;
     }
+    
+    function loadCss($files = false,$path=false)
+    {
+        $ext = 'css';
+        if(!$path)
+        {
+            $path = Yii::app()->theme->baseUrl."/";
+        }
+        $path .= 'css/';
+        $files = CommonFunctions::_loadFiles($files,$path,$ext);
+        
+        
+    }
+    
+    function loadJs($files = false,$path=false)
+    {
+        $ext = 'js';
+        if(!$path)
+        {
+            $path = Yii::app()->theme->baseUrl."/";
+        }
+        $path .= 'js/';
+        $files = CommonFunctions::_loadFiles($files,$path,$ext);
+        
+    }
+    
+    function _loadFiles($files,$path,$ext)
+    {
+        $newfiles = array();
+        if(!is_array($files))
+        {
+            $files = array($files);
+        }
+        foreach ($files as $file)
+        {
+            $file = $path.$file; 
+            if($ext == 'css')
+                Yii::app()->clientScript->registerCssFile($file.".css");
+            if($ext=="js")
+            {
+                Yii::app()->clientScript->registerScriptFile($file.".js",CClientScript::POS_END);
+            }
+        }
+        return $newfiles;
+    }
 }

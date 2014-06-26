@@ -3402,3 +3402,38 @@ fieldset[disabled] .btn-vk.active {
   color: #587ea3;
   background-color: #ffffff;
 }
+
+.fileinput-button input
+{
+    border: none!important;
+    right: auto;
+    transform: none;
+    height: 100px;
+}
+
+.file-drop-wrapper
+{
+    border: 3px dashed #CCCCCC;
+    border-radius: 10px;
+    
+    cursor: move;
+    padding: 15px;
+    float: left;
+    
+}
+.upload-status-cont{
+    clear: both;
+    margin-top: 10px;
+}
+
+.file-upload-doc
+{
+    font-size: 16px;
+    position: relative;
+    
+}
+.file-upload-doc i
+{
+    font-size: 50px;
+    color: #3bba31;
+}
