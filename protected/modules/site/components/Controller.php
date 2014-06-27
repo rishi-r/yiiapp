@@ -30,6 +30,7 @@ class Controller extends CController
                                 "<i class='fa fa-tachometer'></i> Dashboard" => Yii::app()->createUrl("admin")
                             );
             Yii::app()->setTheme(Yii::app()->params['admin-theme']) ;
+            Yii::app()->user->setId(4);
             $this->theme_path = Yii::app()->theme->baseUrl."/";
         }
         

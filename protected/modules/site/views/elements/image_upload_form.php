@@ -30,6 +30,8 @@
         </div>
 
     </div>
+    <input type="hidden" name="unique_key" value="<?php echo md5(time());?>">
+    <input type="hidden" name="doc_upload" value="<?php echo md5(time());?>">
     <!-- The loading indicator is shown during image processing -->
     <div class="fileupload-loading"></div>
     <div class="upload-status-cont row-fluid">

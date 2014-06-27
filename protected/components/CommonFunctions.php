@@ -91,8 +91,8 @@ class CommonFunctions extends CComponent {
         $randomKey = 0;
         $randomKey2 = 0;
         do {
-            $randomKey = HelperFunctions::randomKey();
-            $randomKey2 = HelperFunctions::randomKey();
+            $randomKey = CommonFunctions::randomKey();
+            $randomKey2 = CommonFunctions::randomKey();
         } while ($randomKey == $randomKey2);
 
         return md5($randomKey2 . time());
@@ -238,4 +238,43 @@ class CommonFunctions extends CComponent {
         }
         return $newfiles;
     }
+    
+    
+
+    function checklogin()
+    {
+        $isGuest = Yii::app()->user->isGuest;
+        if($isGuest)
+        {
+            if(Yii::app()->request->isAjaxRequest)
+            {
+                $docUpload = Yii::app()->input->stripClean(Yii::app()->request->getPost('doc_upload'));
+                $data = $this->defaultJson();
+                $data['error']="logged_out";
+                if($docUpload)
+                    echo "[".json_encode($data)."]";
+                else
+                    json_encode($data);
+                die;
+            }
+            else {
+                // Redirect to login page
+                $refrer_link= current_url();
+                redirect("/login");
+            }
+
+        }
+    }
+    
+    function defaultJson()
+    {
+        return array(
+                    'success' => 0,
+                    'success_mess' => "",
+                    'error' => 0,
+                    'error_mess' => "",
+                );
+    
+    }
+
 }

@@ -16,10 +16,6 @@ class DocumentsController extends Controller {
     
     public function actionIndex() 
     {
-        //echo Yii::app()->input->stripClean("fdgfdgfdg");die;
-        $userObj = new Users();
-        //$userObj->test();
-        //echo $userObj->getUserEncryptedKey();
         $links2 = array(
                         '<i class="fa fa-fire"></i> Dummy' => array('list'),
                         'test',
@@ -36,5 +32,23 @@ class DocumentsController extends Controller {
         CommonFunctions::loadJs('custom/uploadDoc');
         $uploader_script = $this->renderPartial('/elements/file_uploader',array(),true);
         $this->render('upload',array('uploader_form' => $uploader_form,'uploader_script' => $uploader_script));
+    }
+    
+    public function actionAjaxUpload()
+    {
+        if(Yii::app()->request->isAjaxRequest)
+        {
+            $docObj = new Documents();
+            $docResult = $docObj->uploadDoc();
+            Yii::app()->end("[".json_encode($docResult)."]");
+        }
+        Yii::app()->end("Not found");
+    }
+    
+    function actionConvertBaseDoc()
+    {
+        $docObj = new Documents();
+        $docId = Yii::app()->user->getState('parent_dockey' . Yii::app()->user->getId());
+        $docObj->convertBaseDocs($docId);
     }
 }

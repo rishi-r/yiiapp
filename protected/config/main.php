@@ -10,6 +10,8 @@
 Yii::setPathOfAlias('admin', dirname(__FILE__) . '/../modules/admin');
 Yii::setPathOfAlias('/', dirname(__FILE__) . '/../modules/site');
 Yii::setPathOfAlias('bootstrap', dirname(__FILE__).'/../extensions/bootstrap');
+define('ROOT_PATH', $_SERVER['DOCUMENT_ROOT'].DIRECTORY_SEPARATOR."event".DIRECTORY_SEPARATOR);
+define('ISTESTSITE',TRUE);
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
 	'name'=>'My Web Application',
@@ -58,13 +60,22 @@ return array(
 		),
 		// uncomment the following to enable URLs in path-format
 		
+                'request'=>array(
+                    'enableCsrfValidation'=>false,
+                ),
+                'authManager'=>array(
+                        'class'=>'RDbAuthManager',
+                        'connectionID'=>'db',
+                        'defaultRoles'=>array('	', 'Guest'),
+                ),
 		'urlManager'=>array(
 			'urlFormat' => 'path',
                         'showScriptName' => false,
 			'rules'=>array(
+                                '<controller:\w+>/<action:\w+>'=>'site/<controller>/<action>',
 				'<controller:\w+>/<id:\d+>'=>'<controller>/view',
 				'<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
-				'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
+				//'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
               	),
 		),
 		
@@ -115,6 +126,22 @@ return array(
 		// this is used in contact page
 		'adminEmail'=>'webmaster@example.com',
                 'admin-theme' => 'admin_theme',
-                'front-theme' => 'front_theme'
+                'front-theme' => 'front_theme',
+                // this is used in contact page
+                'REMEMBER_ME_EXPIRE' => 10,
+		'adminEmail'=>'webmaster@example.com',
+ 		'doc_size' => 1000000,
+		'allowed_files' => 'pdf,doc,xls,docx,xlsx,png',
+                'uploadPath'=>ROOT_PATH."userdocs".DIRECTORY_SEPARATOR,
+                'sign_folder' => 'signature',
+                'original_doc' => 'ori-docs',
+		'pdf_conversion' => 'pdf-docs',
+		'processed_doc'  =>  'processed-docs',
+		'signingdoc_foldername' => 'signingdocs',
+		'img_conversion_format' => 'png',
+		'results_perpage' => 10,
+		'not_allowed_files' => 'png,jpg,php,js,css,exe',
+		'image_geometry' => '1275x1650',
+		
 	),
 );

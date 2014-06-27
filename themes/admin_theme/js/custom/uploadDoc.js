@@ -5,6 +5,8 @@ $(function(){
                 acceptFileTypes: /(\.|\/)(gif|jpe?g|png)$/i,
                 autoUpload:true,
                 dropZone:$(".file-drop-wrapper"),
+                dataType:'json',
+                pasteZone:$(".file-drop-wrapper"),
                 start: function(e)
                 {
                     //blockcont("body",'Please wait while uploading....');
