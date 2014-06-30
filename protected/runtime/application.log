@@ -2932,3 +2932,1256 @@ Stack trace:
 #16 {main}
 REQUEST_URI=/event/home/contact
 ---
+2014/06/30 08:19:04 [error] [exception.CException] exception 'CException' with message 'CCaptchaValidator.action "captcha" is invalid. Unable to find such an action in the current controller.' in /opt/lampp/htdocs/yii/framework/validators/CCaptchaValidator.php:77
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/validators/CCaptchaValidator.php(93): CCaptchaValidator->getCaptchaAction()
+#1 /opt/lampp/htdocs/yii/framework/web/widgets/CActiveForm.php(510): CCaptchaValidator->clientValidateAttribute(Object(ContactForm), 'verifyCode')
+#2 /opt/lampp/htdocs/event/protected/modules/site/views/home/contact.php(115): CActiveForm->error(Object(ContactForm), 'verifyCode', Array)
+#3 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(126): require('/opt/lampp/htdo...')
+#4 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/opt/lampp/htdo...', Array, true)
+#5 /opt/lampp/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/opt/lampp/htdo...', Array, true)
+#6 /opt/lampp/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('contact', Array, true)
+#7 /opt/lampp/htdocs/event/protected/modules/site/controllers/HomeController.php(70): CController->render('contact', Array)
+#8 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): HomeController->actionContact()
+#9 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /opt/lampp/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#11 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('contact')
+#13 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/home/conta...')
+#14 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/event/home/contact
+---
+2014/06/30 08:26:59 [error] [exception.CException] exception 'CException' with message 'CCaptchaValidator.action "captcha" is invalid. Unable to find such an action in the current controller.' in /opt/lampp/htdocs/yii/framework/validators/CCaptchaValidator.php:77
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/validators/CCaptchaValidator.php(93): CCaptchaValidator->getCaptchaAction()
+#1 /opt/lampp/htdocs/yii/framework/web/widgets/CActiveForm.php(510): CCaptchaValidator->clientValidateAttribute(Object(ContactForm), 'verifyCode')
+#2 /opt/lampp/htdocs/event/protected/modules/site/views/home/contact.php(110): CActiveForm->error(Object(ContactForm), 'verifyCode', Array)
+#3 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(126): require('/opt/lampp/htdo...')
+#4 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/opt/lampp/htdo...', Array, true)
+#5 /opt/lampp/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/opt/lampp/htdo...', Array, true)
+#6 /opt/lampp/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('contact', Array, true)
+#7 /opt/lampp/htdocs/event/protected/modules/site/controllers/HomeController.php(70): CController->render('contact', Array)
+#8 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): HomeController->actionContact()
+#9 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /opt/lampp/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#11 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('contact')
+#13 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/home/conta...')
+#14 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/event/home/contact
+---
+2014/06/30 08:26:59 [error] [exception.CException] exception 'CException' with message 'CCaptchaValidator.action "captcha" is invalid. Unable to find such an action in the current controller.' in /opt/lampp/htdocs/yii/framework/validators/CCaptchaValidator.php:77
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/validators/CCaptchaValidator.php(93): CCaptchaValidator->getCaptchaAction()
+#1 /opt/lampp/htdocs/yii/framework/web/widgets/CActiveForm.php(510): CCaptchaValidator->clientValidateAttribute(Object(ContactForm), 'verifyCode')
+#2 /opt/lampp/htdocs/event/protected/modules/site/views/home/contact.php(110): CActiveForm->error(Object(ContactForm), 'verifyCode', Array)
+#3 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(126): require('/opt/lampp/htdo...')
+#4 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/opt/lampp/htdo...', Array, true)
+#5 /opt/lampp/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/opt/lampp/htdo...', Array, true)
+#6 /opt/lampp/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('contact', Array, true)
+#7 /opt/lampp/htdocs/event/protected/modules/site/controllers/HomeController.php(70): CController->render('contact', Array)
+#8 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): HomeController->actionContact()
+#9 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /opt/lampp/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#11 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('contact')
+#13 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/home/conta...')
+#14 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/event/home/contact
+---
+2014/06/30 08:26:59 [error] [exception.CException] exception 'CException' with message 'CCaptchaValidator.action "captcha" is invalid. Unable to find such an action in the current controller.' in /opt/lampp/htdocs/yii/framework/validators/CCaptchaValidator.php:77
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/validators/CCaptchaValidator.php(93): CCaptchaValidator->getCaptchaAction()
+#1 /opt/lampp/htdocs/yii/framework/web/widgets/CActiveForm.php(510): CCaptchaValidator->clientValidateAttribute(Object(ContactForm), 'verifyCode')
+#2 /opt/lampp/htdocs/event/protected/modules/site/views/home/contact.php(110): CActiveForm->error(Object(ContactForm), 'verifyCode', Array)
+#3 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(126): require('/opt/lampp/htdo...')
+#4 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/opt/lampp/htdo...', Array, true)
+#5 /opt/lampp/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/opt/lampp/htdo...', Array, true)
+#6 /opt/lampp/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('contact', Array, true)
+#7 /opt/lampp/htdocs/event/protected/modules/site/controllers/HomeController.php(70): CController->render('contact', Array)
+#8 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): HomeController->actionContact()
+#9 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /opt/lampp/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#11 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('contact')
+#13 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/home/conta...')
+#14 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/event/home/contact
+---
+2014/06/30 08:27:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in /opt/lampp/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(270): CController->missingAction('captcha')
+#1 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('captcha')
+#2 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/home/captc...')
+#3 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/event/home/captcha?v=53b1034495636
+HTTP_REFERER=http://common.localhost.com/event/home/contact
+---
+2014/06/30 08:27:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in /opt/lampp/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(270): CController->missingAction('captcha')
+#1 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('captcha')
+#2 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/home/captc...')
+#3 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/event/home/captcha?v=53b1034495636
+HTTP_REFERER=http://common.localhost.com/event/home/contact
+---
+2014/06/30 08:27:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in /opt/lampp/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(270): CController->missingAction('captcha')
+#1 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('captcha')
+#2 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/home/captc...')
+#3 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/event/home/captcha?refresh=1&_=1404109637258
+HTTP_REFERER=http://common.localhost.com/event/home/contact
+---
+2014/06/30 08:27:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in /opt/lampp/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(270): CController->missingAction('captcha')
+#1 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('captcha')
+#2 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/home/captc...')
+#3 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/event/home/captcha?refresh=1&_=1404109637258
+---
+2014/06/30 08:29:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in /opt/lampp/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(270): CController->missingAction('captcha')
+#1 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('captcha')
+#2 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/home/captc...')
+#3 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/event/home/captcha?v=53b103ca6b1a5
+HTTP_REFERER=http://common.localhost.com/event/home/contact
+---
+2014/06/30 08:29:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "captcha".' in /opt/lampp/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(270): CController->missingAction('captcha')
+#1 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('captcha')
+#2 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/home/captc...')
+#3 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/event/home/captcha?v=53b103ca6b1a5
+HTTP_REFERER=http://common.localhost.com/event/home/contact
+---
+2014/06/30 08:46:06 [error] [exception.CException] exception 'CException' with message 'Property "CActiveForm.clientScript" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWidgetFactory.php(161): CComponent->__set('clientScript', Array)
+#1 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(146): CWidgetFactory->createWidget(Object(HomeController), 'CActiveForm', Array)
+#2 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(189): CBaseController->createWidget('CActiveForm', Array)
+#3 /opt/lampp/htdocs/event/protected/modules/site/views/home/contact.php(85): CBaseController->beginWidget('CActiveForm', Array)
+#4 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(126): require('/opt/lampp/htdo...')
+#5 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/opt/lampp/htdo...', Array, true)
+#6 /opt/lampp/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/opt/lampp/htdo...', Array, true)
+#7 /opt/lampp/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('contact', Array, true)
+#8 /opt/lampp/htdocs/event/protected/modules/site/controllers/HomeController.php(92): CController->render('contact', Array)
+#9 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): HomeController->actionContact()
+#10 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /opt/lampp/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#12 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('contact')
+#14 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/home/conta...')
+#15 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#16 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/event/home/contact
+---
+2014/06/30 08:46:15 [error] [exception.CException] exception 'CException' with message 'Property "CActiveForm.clientScript" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWidgetFactory.php(161): CComponent->__set('clientScript', Array)
+#1 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(146): CWidgetFactory->createWidget(Object(HomeController), 'CActiveForm', Array)
+#2 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(189): CBaseController->createWidget('CActiveForm', Array)
+#3 /opt/lampp/htdocs/event/protected/modules/site/views/home/contact.php(85): CBaseController->beginWidget('CActiveForm', Array)
+#4 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(126): require('/opt/lampp/htdo...')
+#5 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/opt/lampp/htdo...', Array, true)
+#6 /opt/lampp/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/opt/lampp/htdo...', Array, true)
+#7 /opt/lampp/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('contact', Array, true)
+#8 /opt/lampp/htdocs/event/protected/modules/site/controllers/HomeController.php(92): CController->render('contact', Array)
+#9 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): HomeController->actionContact()
+#10 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /opt/lampp/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#12 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('contact')
+#14 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/home/conta...')
+#15 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#16 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/event/home/contact
+---
+2014/06/30 08:55:28 [error] [php] include(HelperFunctions.php): failed to open stream: No such file or directory (/opt/lampp/htdocs/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /opt/lampp/htdocs/event/protected/modules/site/controllers/HomeController.php(87): spl_autoload_call()
+#1 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): HomeController->actionContact()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(286): HomeController->runAction()
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(265): HomeController->runActionWithFilters()
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): HomeController->run()
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /opt/lampp/htdocs/event/index.php(13): CWebApplication->run()
+REQUEST_URI=/event/home/contact
+in /opt/lampp/htdocs/event/protected/modules/site/controllers/HomeController.php (87)
+in /opt/lampp/htdocs/event/index.php (13)
+2014/06/30 09:23:01 [error] [exception.CException] exception 'CException' with message 'Alias "ext.Yii-SwiftMailer.SwiftMailer" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /opt/lampp/htdocs/yii/framework/YiiBase.php:322
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/YiiBase.php(196): YiiBase::import('ext.Yii-SwiftMa...', true)
+#1 /opt/lampp/htdocs/yii/framework/base/CModule.php(386): YiiBase::createComponent(Array)
+#2 /opt/lampp/htdocs/yii/framework/base/CModule.php(103): CModule->getComponent('mailer')
+#3 /opt/lampp/htdocs/event/protected/components/MailFunctions.php(35): CModule->__get('mailer')
+#4 /opt/lampp/htdocs/event/protected/modules/site/controllers/HomeController.php(80): MailFunctions->sendMail()
+#5 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): HomeController->actionContact()
+#6 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#7 /opt/lampp/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#8 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('contact')
+#10 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/home/conta...')
+#11 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#12 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/event/home/contact
+HTTP_REFERER=http://common.localhost.com/event/home/contact
+---
+2014/06/30 09:25:30 [error] [exception.CException] exception 'CException' with message 'Property "HomeController.email" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /opt/lampp/htdocs/event/protected/components/MailFunctions.php(35): CComponent->__get('email')
+#1 /opt/lampp/htdocs/event/protected/modules/site/controllers/HomeController.php(80): MailFunctions->sendMail()
+#2 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): HomeController->actionContact()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('contact')
+#7 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/home/conta...')
+#8 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/event/home/contact
+HTTP_REFERER=http://common.localhost.com/event/home/contact
+---
+2014/06/30 09:49:25 [error] [exception.CException] exception 'CException' with message 'SwiftMailer and its behaviors do not have a method or closure named "AddReplyTo".' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /opt/lampp/htdocs/event/protected/components/MailFunctions.php(30): CComponent->__call('AddReplyTo', Array)
+#1 /opt/lampp/htdocs/event/protected/components/MailFunctions.php(30): SwiftMailer->AddReplyTo(NULL)
+#2 /opt/lampp/htdocs/event/protected/components/MailFunctions.php(51): MailFunctions->setHeader()
+#3 /opt/lampp/htdocs/event/protected/modules/site/controllers/HomeController.php(84): MailFunctions->sendMail()
+#4 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): HomeController->actionContact()
+#5 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /opt/lampp/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#7 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('contact')
+#9 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/home/conta...')
+#10 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/event/home/contact
+HTTP_REFERER=http://common.localhost.com/event/home/contact
+---
+2014/06/30 09:58:35 [error] [php] call_user_func_array() expects parameter 1 to be a valid callback, class 'PHPMailer' does not have a method 'FromName' (/opt/lampp/htdocs/event/protected/extensions/mailer/EMailer.php:153)
+Stack trace:
+#0 /opt/lampp/htdocs/event/protected/components/MailFunctions.php(36): EMailer->FromName()
+#1 /opt/lampp/htdocs/event/protected/components/MailFunctions.php(52): MailFunctions->setHeader()
+#2 /opt/lampp/htdocs/event/protected/modules/site/controllers/HomeController.php(84): MailFunctions->sendMail()
+#3 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): HomeController->actionContact()
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /opt/lampp/htdocs/yii/framework/web/CController.php(286): HomeController->runAction()
+#6 /opt/lampp/htdocs/yii/framework/web/CController.php(265): HomeController->runActionWithFilters()
+#7 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): HomeController->run()
+#8 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /opt/lampp/htdocs/event/index.php(13): CWebApplication->run()
+REQUEST_URI=/event/home/contact
+in /opt/lampp/htdocs/event/protected/extensions/mailer/EMailer.php (153)
+in /opt/lampp/htdocs/event/protected/components/MailFunctions.php (36)
+in /opt/lampp/htdocs/event/protected/components/MailFunctions.php (36)
+2014/06/30 10:01:08 [error] [exception.CException] exception 'CException' with message 'Property "MailFunctions.headers" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /opt/lampp/htdocs/event/protected/components/MailFunctions.php(40): CComponent->__set('headers', 'From: =?UTF-8?B...')
+#1 /opt/lampp/htdocs/event/protected/components/MailFunctions.php(53): MailFunctions->setHeader()
+#2 /opt/lampp/htdocs/event/protected/modules/site/controllers/HomeController.php(84): MailFunctions->sendMail()
+#3 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): HomeController->actionContact()
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /opt/lampp/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('contact')
+#8 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/home/conta...')
+#9 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/event/home/contact
+HTTP_REFERER=http://common.localhost.com/event/home/contact
+---
+2014/06/30 10:13:18 [error] [exception.CException] exception 'CException' with message 'SwiftMailer and its behaviors do not have a method or closure named "IsSMTP".' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /opt/lampp/htdocs/event/protected/components/MailFunctions.php(52): CComponent->__call('IsSMTP', Array)
+#1 /opt/lampp/htdocs/event/protected/components/MailFunctions.php(52): SwiftMailer->IsSMTP()
+#2 /opt/lampp/htdocs/event/protected/modules/site/controllers/HomeController.php(84): MailFunctions->sendMail()
+#3 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): HomeController->actionContact()
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /opt/lampp/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('contact')
+#8 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/home/conta...')
+#9 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/event/home/contact
+HTTP_REFERER=http://common.localhost.com/event/home/contact
+---
+2014/06/30 10:13:33 [error] [exception.CException] exception 'CException' with message 'SwiftMailer and its behaviors do not have a method or closure named "AddReplyTo".' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /opt/lampp/htdocs/event/protected/components/MailFunctions.php(30): CComponent->__call('AddReplyTo', Array)
+#1 /opt/lampp/htdocs/event/protected/components/MailFunctions.php(30): SwiftMailer->AddReplyTo(NULL)
+#2 /opt/lampp/htdocs/event/protected/components/MailFunctions.php(52): MailFunctions->setHeader()
+#3 /opt/lampp/htdocs/event/protected/modules/site/controllers/HomeController.php(84): MailFunctions->sendMail()
+#4 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): HomeController->actionContact()
+#5 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /opt/lampp/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#7 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('contact')
+#9 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/home/conta...')
+#10 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/event/home/contact
+HTTP_REFERER=http://common.localhost.com/event/home/contact
+---
+2014/06/30 10:15:15 [error] [exception.CException] exception 'CException' with message 'Property "SwiftMailer.From" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /opt/lampp/htdocs/event/protected/components/MailFunctions.php(32): CComponent->__set('From', 'webmaster@examp...')
+#1 /opt/lampp/htdocs/event/protected/components/MailFunctions.php(51): MailFunctions->setHeader()
+#2 /opt/lampp/htdocs/event/protected/modules/site/controllers/HomeController.php(84): MailFunctions->sendMail()
+#3 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): HomeController->actionContact()
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /opt/lampp/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('contact')
+#8 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/home/conta...')
+#9 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/event/home/contact
+HTTP_REFERER=http://common.localhost.com/event/home/contact
+---
+2014/06/30 10:15:32 [error] [exception.CException] exception 'CException' with message 'SwiftMailer and its behaviors do not have a method or closure named "From".' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /opt/lampp/htdocs/event/protected/components/MailFunctions.php(32): CComponent->__call('From', Array)
+#1 /opt/lampp/htdocs/event/protected/components/MailFunctions.php(32): SwiftMailer->From('webmaster@examp...')
+#2 /opt/lampp/htdocs/event/protected/components/MailFunctions.php(51): MailFunctions->setHeader()
+#3 /opt/lampp/htdocs/event/protected/modules/site/controllers/HomeController.php(84): MailFunctions->sendMail()
+#4 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): HomeController->actionContact()
+#5 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /opt/lampp/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#7 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('contact')
+#9 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/home/conta...')
+#10 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/event/home/contact
+HTTP_REFERER=http://common.localhost.com/event/home/contact
+---
+2014/06/30 10:17:26 [error] [exception.CException] exception 'CException' with message 'SwiftMailer and its behaviors do not have a method or closure named "setFrom".' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /opt/lampp/htdocs/event/protected/components/MailFunctions.php(32): CComponent->__call('setFrom', Array)
+#1 /opt/lampp/htdocs/event/protected/components/MailFunctions.php(32): SwiftMailer->setFrom('webmaster@examp...')
+#2 /opt/lampp/htdocs/event/protected/components/MailFunctions.php(51): MailFunctions->setHeader()
+#3 /opt/lampp/htdocs/event/protected/modules/site/controllers/HomeController.php(84): MailFunctions->sendMail()
+#4 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): HomeController->actionContact()
+#5 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /opt/lampp/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#7 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('contact')
+#9 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/home/conta...')
+#10 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/event/home/contact
+HTTP_REFERER=http://common.localhost.com/event/home/contact
+---
+2014/06/30 10:17:58 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.swiftMailer" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/base/CModule.php(105): CComponent->__get('swiftMailer')
+#1 /opt/lampp/htdocs/event/protected/components/MailFunctions.php(32): CModule->__get('swiftMailer')
+#2 /opt/lampp/htdocs/event/protected/components/MailFunctions.php(51): MailFunctions->setHeader()
+#3 /opt/lampp/htdocs/event/protected/modules/site/controllers/HomeController.php(84): MailFunctions->sendMail()
+#4 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): HomeController->actionContact()
+#5 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /opt/lampp/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#7 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('contact')
+#9 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/home/conta...')
+#10 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/event/home/contact
+HTTP_REFERER=http://common.localhost.com/event/home/contact
+---
+2014/06/30 10:29:54 [error] [exception.CException] exception 'CException' with message 'Property "SwiftMailer.FromName" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /opt/lampp/htdocs/event/protected/components/MailFunctions.php(36): CComponent->__set('FromName', '=?UTF-8?B?ZHNmZ...')
+#1 /opt/lampp/htdocs/event/protected/components/MailFunctions.php(51): MailFunctions->setHeader()
+#2 /opt/lampp/htdocs/event/protected/modules/site/controllers/HomeController.php(84): MailFunctions->sendMail()
+#3 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): HomeController->actionContact()
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /opt/lampp/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('contact')
+#8 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/home/conta...')
+#9 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/event/home/contact
+HTTP_REFERER=http://common.localhost.com/event/home/contact
+---
+2014/06/30 10:30:02 [error] [exception.CException] exception 'CException' with message 'Property "MailFunctions.headers" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /opt/lampp/htdocs/event/protected/components/MailFunctions.php(39): CComponent->__set('headers', 'From: =?UTF-8?B...')
+#1 /opt/lampp/htdocs/event/protected/components/MailFunctions.php(51): MailFunctions->setHeader()
+#2 /opt/lampp/htdocs/event/protected/modules/site/controllers/HomeController.php(84): MailFunctions->sendMail()
+#3 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): HomeController->actionContact()
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /opt/lampp/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('contact')
+#8 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/home/conta...')
+#9 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/event/home/contact
+HTTP_REFERER=http://common.localhost.com/event/home/contact
+---
+2014/06/30 10:30:27 [error] [exception.Swift_RfcComplianceException] exception 'Swift_RfcComplianceException' with message 'Address in mailbox given [] does not comply with RFC 2822, 3.6.2.' in /opt/lampp/htdocs/event/protected/extensions/Yii-SwiftMailer/lib/classes/Swift/Mime/Headers/MailboxHeader.php:352
+Stack trace:
+#0 /opt/lampp/htdocs/event/protected/extensions/Yii-SwiftMailer/lib/classes/Swift/Mime/Headers/MailboxHeader.php(264): Swift_Mime_Headers_MailboxHeader->_assertValidAddress(NULL)
+#1 /opt/lampp/htdocs/event/protected/extensions/Yii-SwiftMailer/lib/classes/Swift/Mime/Headers/MailboxHeader.php(108): Swift_Mime_Headers_MailboxHeader->normalizeMailboxes(Array)
+#2 /opt/lampp/htdocs/event/protected/extensions/Yii-SwiftMailer/lib/classes/Swift/Mime/Headers/MailboxHeader.php(65): Swift_Mime_Headers_MailboxHeader->setNameAddresses(Array)
+#3 /opt/lampp/htdocs/event/protected/extensions/Yii-SwiftMailer/lib/classes/Swift/Mime/SimpleHeaderFactory.php(60): Swift_Mime_Headers_MailboxHeader->setFieldBodyModel(Array)
+#4 /opt/lampp/htdocs/event/protected/extensions/Yii-SwiftMailer/lib/classes/Swift/Mime/SimpleHeaderSet.php(70): Swift_Mime_SimpleHeaderFactory->createMailboxHeader('To', Array)
+#5 /opt/lampp/htdocs/event/protected/extensions/Yii-SwiftMailer/lib/classes/Swift/Mime/SimpleMessage.php(324): Swift_Mime_SimpleHeaderSet->addMailboxHeader('To', Array)
+#6 /opt/lampp/htdocs/event/protected/extensions/Yii-SwiftMailer/SwiftMailer.php(157): Swift_Mime_SimpleMessage->setTo(Array)
+#7 /opt/lampp/htdocs/event/protected/components/MailFunctions.php(57): SwiftMailer->send()
+#8 /opt/lampp/htdocs/event/protected/modules/site/controllers/HomeController.php(84): MailFunctions->sendMail()
+#9 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): HomeController->actionContact()
+#10 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /opt/lampp/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#12 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('contact')
+#14 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/home/conta...')
+#15 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#16 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/event/home/contact
+HTTP_REFERER=http://common.localhost.com/event/home/contact
+---
+2014/06/30 14:46:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/screen.css".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/screen.css')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/css/screen.css
+HTTP_REFERER=http://common.localhost.com/event/home/
+---
+2014/06/30 14:46:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/print.css".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/print.css')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/css/print.css
+HTTP_REFERER=http://common.localhost.com/event/home/
+---
+2014/06/30 14:46:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/main.css".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/main.css')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/css/main.css
+HTTP_REFERER=http://common.localhost.com/event/home/
+---
+2014/06/30 14:46:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/form.css".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/form.css')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/css/form.css
+HTTP_REFERER=http://common.localhost.com/event/home/
+---
+2014/06/30 14:46:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site/site/logout".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/site/logou...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/site/logout
+HTTP_REFERER=http://common.localhost.com/event/home/
+---
+2014/06/30 15:12:13 [error] [exception.CException] exception 'CException' with message 'CWebUser and its behaviors do not have a method or closure named "isGuest".' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /opt/lampp/htdocs/event/protected/modules/site/controllers/HomeController.php(44): CComponent->__call('isGuest', Array)
+#1 /opt/lampp/htdocs/event/protected/modules/site/controllers/HomeController.php(44): CWebUser->isGuest()
+#2 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): HomeController->actionIndex()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('')
+#7 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#8 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/event/
+---
+2014/06/30 15:34:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site/site/login".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/site/login')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/site/login
+HTTP_REFERER=http://common.localhost.com/event/
+---
+2014/06/30 15:35:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site/site/login".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/site/login')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/site/login
+HTTP_REFERER=http://common.localhost.com/event/
+---
+2014/06/30 15:37:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site/site/login".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/site/login')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/site/login
+HTTP_REFERER=http://common.localhost.com/event/
+---
+2014/06/30 15:37:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site/site/login".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/site/login')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/site/login
+HTTP_REFERER=http://common.localhost.com/event/
+---
+2014/06/30 15:38:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site/site/login".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/site/login')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/site/login
+HTTP_REFERER=http://common.localhost.com/event/
+---
+2014/06/30 15:39:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site/site/login".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/site/login')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/site/login
+HTTP_REFERER=http://common.localhost.com/event/
+---
+2014/06/30 15:42:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "1".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('1')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/1
+HTTP_REFERER=http://common.localhost.com/event/
+---
+2014/06/30 15:42:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "1".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('1')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/1
+HTTP_REFERER=http://common.localhost.com/event/
+---
+2014/06/30 15:42:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "1".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('1')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/1
+HTTP_REFERER=http://common.localhost.com/event/
+---
+2014/06/30 15:42:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "1".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('1')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/1
+HTTP_REFERER=http://common.localhost.com/event/
+---
+2014/06/30 15:42:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site/site/login".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/site/login')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/site/login
+HTTP_REFERER=http://common.localhost.com/event/
+---
+2014/06/30 15:42:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "1".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('1')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/1
+HTTP_REFERER=http://common.localhost.com/event/
+---
+2014/06/30 15:42:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "1".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('1')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/1
+HTTP_REFERER=http://common.localhost.com/event/
+---
+2014/06/30 15:43:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site/site/login".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/site/login')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/site/login
+HTTP_REFERER=http://common.localhost.com/event/
+---
+2014/06/30 15:44:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site/site/register".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/site/regis...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/site/register
+HTTP_REFERER=http://common.localhost.com/event/
+---
+2014/06/30 15:59:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site/site/login".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/site/login')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/site/login
+HTTP_REFERER=http://common.localhost.com/event/
+---
+2014/06/30 16:00:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site/site/register".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/site/regis...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/site/register
+HTTP_REFERER=http://common.localhost.com/event/
+---
+2014/06/30 16:01:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site/site/register".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/site/regis...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/site/register
+---
+2014/06/30 16:01:33 [error] [php] include(User.php): failed to open stream: No such file or directory (/opt/lampp/htdocs/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /opt/lampp/htdocs/event/protected/modules/site/models/RegistrationForm.php(39): spl_autoload_call()
+#1 /opt/lampp/htdocs/yii/framework/validators/CInlineValidator.php(42): RegistrationForm->checkDuplicate()
+#2 /opt/lampp/htdocs/yii/framework/validators/CValidator.php(213): CInlineValidator->validateAttribute()
+#3 /opt/lampp/htdocs/yii/framework/base/CModel.php(159): CInlineValidator->validate()
+#4 /opt/lampp/htdocs/yii/framework/web/widgets/CActiveForm.php(920): RegistrationForm->validate()
+#5 /opt/lampp/htdocs/event/protected/modules/site/controllers/HomeController.php(106): validate()
+#6 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): HomeController->actionRegister()
+#7 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#8 /opt/lampp/htdocs/yii/framework/web/CController.php(286): HomeController->runAction()
+#9 /opt/lampp/htdocs/yii/framework/web/CController.php(265): HomeController->runActionWithFilters()
+#10 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): HomeController->run()
+#11 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#12 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /opt/lampp/htdocs/event/index.php(13): CWebApplication->run()
+REQUEST_URI=/event/home/register
+in /opt/lampp/htdocs/event/protected/modules/site/models/RegistrationForm.php (39)
+in /opt/lampp/htdocs/event/protected/modules/site/controllers/HomeController.php (106)
+in /opt/lampp/htdocs/event/index.php (13)
+2014/06/30 16:06:42 [error] [php] include(User.php): failed to open stream: No such file or directory (/opt/lampp/htdocs/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /opt/lampp/htdocs/event/protected/modules/site/models/RegistrationForm.php(39): spl_autoload_call()
+#1 /opt/lampp/htdocs/yii/framework/validators/CInlineValidator.php(42): RegistrationForm->checkDuplicate()
+#2 /opt/lampp/htdocs/yii/framework/validators/CValidator.php(213): CInlineValidator->validateAttribute()
+#3 /opt/lampp/htdocs/yii/framework/base/CModel.php(159): CInlineValidator->validate()
+#4 /opt/lampp/htdocs/yii/framework/web/widgets/CActiveForm.php(920): RegistrationForm->validate()
+#5 /opt/lampp/htdocs/event/protected/modules/site/controllers/HomeController.php(106): validate()
+#6 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): HomeController->actionRegister()
+#7 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#8 /opt/lampp/htdocs/yii/framework/web/CController.php(286): HomeController->runAction()
+#9 /opt/lampp/htdocs/yii/framework/web/CController.php(265): HomeController->runActionWithFilters()
+#10 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): HomeController->run()
+#11 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#12 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /opt/lampp/htdocs/event/index.php(13): CWebApplication->run()
+REQUEST_URI=/event/home/register
+in /opt/lampp/htdocs/event/protected/modules/site/models/RegistrationForm.php (39)
+in /opt/lampp/htdocs/event/protected/modules/site/controllers/HomeController.php (106)
+in /opt/lampp/htdocs/event/index.php (13)
+2014/06/30 16:07:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in /opt/lampp/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(270): CController->missingAction('login')
+#1 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('login')
+#2 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/home/login')
+#3 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/event/home/login
+HTTP_REFERER=http://common.localhost.com/event/
+---
+2014/06/30 16:08:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in /opt/lampp/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(270): CController->missingAction('login')
+#1 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('login')
+#2 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/home/login')
+#3 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/event/home/login
+HTTP_REFERER=http://common.localhost.com/event/
+---
+2014/06/30 16:09:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in /opt/lampp/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(270): CController->missingAction('login')
+#1 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('login')
+#2 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/home/login')
+#3 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/event/home/login
+---
+2014/06/30 16:09:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in /opt/lampp/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(270): CController->missingAction('login')
+#1 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('login')
+#2 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/home/login')
+#3 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/event/home/login
+HTTP_REFERER=http://common.localhost.com/event/
+---
+2014/06/30 16:14:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in /opt/lampp/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(270): CController->missingAction('login')
+#1 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('login')
+#2 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/home/login')
+#3 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/event/home/login
+---
+2014/06/30 16:14:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in /opt/lampp/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(270): CController->missingAction('login')
+#1 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('login')
+#2 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/home/login')
+#3 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/event/home/login
+HTTP_REFERER=http://common.localhost.com/event/
+---
+2014/06/30 16:15:09 [error] [exception.CException] exception 'CException' with message 'Property "HomeController.theme" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /opt/lampp/htdocs/event/themes/admin_theme/views/layouts/constants_js.php(5): CComponent->__get('theme')
+#1 /opt/lampp/htdocs/event/themes/admin_theme/views/layouts/main.php(6): include_once('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(126): require('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/opt/lampp/htdo...', Array, true)
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(784): CBaseController->renderFile('/opt/lampp/htdo...', Array, true)
+#5 /opt/lampp/htdocs/event/protected/modules/site/controllers/HomeController.php(50): CController->render('site_index', Array)
+#6 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): HomeController->actionIndex()
+#7 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /opt/lampp/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#9 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('')
+#11 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#12 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/event/
+---
+2014/06/30 16:15:43 [error] [php] include(User.php): failed to open stream: No such file or directory (/opt/lampp/htdocs/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /opt/lampp/htdocs/event/protected/modules/site/models/RegistrationForm.php(39): spl_autoload_call()
+#1 /opt/lampp/htdocs/yii/framework/validators/CInlineValidator.php(42): RegistrationForm->checkDuplicate()
+#2 /opt/lampp/htdocs/yii/framework/validators/CValidator.php(213): CInlineValidator->validateAttribute()
+#3 /opt/lampp/htdocs/yii/framework/base/CModel.php(159): CInlineValidator->validate()
+#4 /opt/lampp/htdocs/yii/framework/web/widgets/CActiveForm.php(920): RegistrationForm->validate()
+#5 /opt/lampp/htdocs/event/protected/modules/site/controllers/HomeController.php(106): validate()
+#6 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): HomeController->actionRegister()
+#7 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#8 /opt/lampp/htdocs/yii/framework/web/CController.php(286): HomeController->runAction()
+#9 /opt/lampp/htdocs/yii/framework/web/CController.php(265): HomeController->runActionWithFilters()
+#10 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): HomeController->run()
+#11 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#12 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /opt/lampp/htdocs/event/index.php(13): CWebApplication->run()
+REQUEST_URI=/event/home/register
+in /opt/lampp/htdocs/event/protected/modules/site/models/RegistrationForm.php (39)
+in /opt/lampp/htdocs/event/protected/modules/site/controllers/HomeController.php (106)
+in /opt/lampp/htdocs/event/index.php (13)
+2014/06/30 16:15:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/admin_theme//img/loader.gif".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/admin_th...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/themes/admin_theme//img/loader.gif
+HTTP_REFERER=http://common.localhost.com/event/
+---
+2014/06/30 16:16:31 [error] [php] include(User.php): failed to open stream: No such file or directory (/opt/lampp/htdocs/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /opt/lampp/htdocs/event/protected/modules/site/models/RegistrationForm.php(39): spl_autoload_call()
+#1 /opt/lampp/htdocs/yii/framework/validators/CInlineValidator.php(42): RegistrationForm->checkDuplicate()
+#2 /opt/lampp/htdocs/yii/framework/validators/CValidator.php(213): CInlineValidator->validateAttribute()
+#3 /opt/lampp/htdocs/yii/framework/base/CModel.php(159): CInlineValidator->validate()
+#4 /opt/lampp/htdocs/yii/framework/web/widgets/CActiveForm.php(920): RegistrationForm->validate()
+#5 /opt/lampp/htdocs/event/protected/modules/site/controllers/HomeController.php(106): validate()
+#6 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): HomeController->actionRegister()
+#7 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#8 /opt/lampp/htdocs/yii/framework/web/CController.php(286): HomeController->runAction()
+#9 /opt/lampp/htdocs/yii/framework/web/CController.php(265): HomeController->runActionWithFilters()
+#10 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): HomeController->run()
+#11 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#12 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /opt/lampp/htdocs/event/index.php(13): CWebApplication->run()
+REQUEST_URI=/event/home/register
+in /opt/lampp/htdocs/event/protected/modules/site/models/RegistrationForm.php (39)
+in /opt/lampp/htdocs/event/protected/modules/site/controllers/HomeController.php (106)
+in /opt/lampp/htdocs/event/index.php (13)
+2014/06/30 16:17:35 [error] [php] include(User.php): failed to open stream: No such file or directory (/opt/lampp/htdocs/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /opt/lampp/htdocs/event/protected/modules/site/models/RegistrationForm.php(39): spl_autoload_call()
+#1 /opt/lampp/htdocs/yii/framework/validators/CInlineValidator.php(42): RegistrationForm->checkDuplicate()
+#2 /opt/lampp/htdocs/yii/framework/validators/CValidator.php(213): CInlineValidator->validateAttribute()
+#3 /opt/lampp/htdocs/yii/framework/base/CModel.php(159): CInlineValidator->validate()
+#4 /opt/lampp/htdocs/yii/framework/web/widgets/CActiveForm.php(920): RegistrationForm->validate()
+#5 /opt/lampp/htdocs/event/protected/modules/site/controllers/HomeController.php(106): validate()
+#6 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): HomeController->actionRegister()
+#7 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#8 /opt/lampp/htdocs/yii/framework/web/CController.php(286): HomeController->runAction()
+#9 /opt/lampp/htdocs/yii/framework/web/CController.php(265): HomeController->runActionWithFilters()
+#10 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): HomeController->run()
+#11 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#12 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /opt/lampp/htdocs/event/index.php(13): CWebApplication->run()
+REQUEST_URI=/event/home/register
+in /opt/lampp/htdocs/event/protected/modules/site/models/RegistrationForm.php (39)
+in /opt/lampp/htdocs/event/protected/modules/site/controllers/HomeController.php (106)
+in /opt/lampp/htdocs/event/index.php (13)
+2014/06/30 16:18:15 [error] [php] include(User.php): failed to open stream: No such file or directory (/opt/lampp/htdocs/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /opt/lampp/htdocs/event/protected/modules/site/models/RegistrationForm.php(39): spl_autoload_call()
+#1 /opt/lampp/htdocs/yii/framework/validators/CInlineValidator.php(42): RegistrationForm->checkDuplicate()
+#2 /opt/lampp/htdocs/yii/framework/validators/CValidator.php(213): CInlineValidator->validateAttribute()
+#3 /opt/lampp/htdocs/yii/framework/base/CModel.php(159): CInlineValidator->validate()
+#4 /opt/lampp/htdocs/yii/framework/web/widgets/CActiveForm.php(920): RegistrationForm->validate()
+#5 /opt/lampp/htdocs/event/protected/modules/site/controllers/HomeController.php(106): validate()
+#6 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): HomeController->actionRegister()
+#7 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#8 /opt/lampp/htdocs/yii/framework/web/CController.php(286): HomeController->runAction()
+#9 /opt/lampp/htdocs/yii/framework/web/CController.php(265): HomeController->runActionWithFilters()
+#10 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): HomeController->run()
+#11 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#12 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /opt/lampp/htdocs/event/index.php(13): CWebApplication->run()
+REQUEST_URI=/event/home/register
+in /opt/lampp/htdocs/event/protected/modules/site/models/RegistrationForm.php (39)
+in /opt/lampp/htdocs/event/protected/modules/site/controllers/HomeController.php (106)
+in /opt/lampp/htdocs/event/index.php (13)
+2014/06/30 16:20:10 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'email' in 'where clause'. The SQL statement executed was: SELECT COUNT(*) FROM `evt_users` `t` WHERE email = :email.
+in /opt/lampp/htdocs/event/protected/modules/site/models/RegistrationForm.php (44)
+in /opt/lampp/htdocs/event/protected/modules/site/controllers/HomeController.php (106)
+in /opt/lampp/htdocs/event/index.php (13)
+2014/06/30 16:20:10 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'email' in 'where clause'. The SQL statement executed was: SELECT COUNT(*) FROM `evt_users` `t` WHERE email = :email' in /opt/lampp/htdocs/yii/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/db/CDbCommand.php(433): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 /opt/lampp/htdocs/yii/framework/db/ar/CActiveRecord.php(1601): CDbCommand->queryScalar()
+#2 /opt/lampp/htdocs/event/protected/modules/site/models/RegistrationForm.php(44): CActiveRecord->count(Array)
+#3 /opt/lampp/htdocs/yii/framework/validators/CInlineValidator.php(42): RegistrationForm->checkDuplicate('email', Array)
+#4 /opt/lampp/htdocs/yii/framework/validators/CValidator.php(213): CInlineValidator->validateAttribute(Object(RegistrationForm), 'email')
+#5 /opt/lampp/htdocs/yii/framework/base/CModel.php(159): CValidator->validate(Object(RegistrationForm), NULL)
+#6 /opt/lampp/htdocs/yii/framework/web/widgets/CActiveForm.php(920): CModel->validate(NULL)
+#7 /opt/lampp/htdocs/event/protected/modules/site/controllers/HomeController.php(106): CActiveForm::validate(Object(RegistrationForm))
+#8 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): HomeController->actionRegister()
+#9 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /opt/lampp/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#11 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('register')
+#13 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/home/regis...')
+#14 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/event/home/register
+HTTP_REFERER=http://common.localhost.com/event/
+---
+2014/06/30 16:21:00 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'email' in 'where clause'. The SQL statement executed was: SELECT COUNT(*) FROM `evt_users` `t` WHERE email = :email.
+in /opt/lampp/htdocs/event/protected/modules/site/models/RegistrationForm.php (44)
+in /opt/lampp/htdocs/event/protected/modules/site/controllers/HomeController.php (106)
+in /opt/lampp/htdocs/event/index.php (13)
+2014/06/30 16:21:00 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'email' in 'where clause'. The SQL statement executed was: SELECT COUNT(*) FROM `evt_users` `t` WHERE email = :email' in /opt/lampp/htdocs/yii/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/db/CDbCommand.php(433): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 /opt/lampp/htdocs/yii/framework/db/ar/CActiveRecord.php(1601): CDbCommand->queryScalar()
+#2 /opt/lampp/htdocs/event/protected/modules/site/models/RegistrationForm.php(44): CActiveRecord->count(Array)
+#3 /opt/lampp/htdocs/yii/framework/validators/CInlineValidator.php(42): RegistrationForm->checkDuplicate('email', Array)
+#4 /opt/lampp/htdocs/yii/framework/validators/CValidator.php(213): CInlineValidator->validateAttribute(Object(RegistrationForm), 'email')
+#5 /opt/lampp/htdocs/yii/framework/base/CModel.php(159): CValidator->validate(Object(RegistrationForm), NULL)
+#6 /opt/lampp/htdocs/yii/framework/web/widgets/CActiveForm.php(920): CModel->validate(NULL)
+#7 /opt/lampp/htdocs/event/protected/modules/site/controllers/HomeController.php(106): CActiveForm::validate(Object(RegistrationForm))
+#8 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): HomeController->actionRegister()
+#9 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /opt/lampp/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#11 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('register')
+#13 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/home/regis...')
+#14 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/event/home/register
+HTTP_REFERER=http://common.localhost.com/event/
+---
+2014/06/30 16:21:35 [error] [php] include(HelperFunctions.php): failed to open stream: No such file or directory (/opt/lampp/htdocs/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /opt/lampp/htdocs/event/protected/components/CommonFunctions.php(130): spl_autoload_call()
+#1 /opt/lampp/htdocs/event/protected/modules/site/models/RegistrationForm.php(121): CommonFunctions->encryptPassword()
+#2 /opt/lampp/htdocs/event/protected/modules/site/models/RegistrationForm.php(76): RegistrationForm->generateFirstEncryptedPassword()
+#3 /opt/lampp/htdocs/event/protected/modules/site/controllers/HomeController.php(110): RegistrationForm->createAccount()
+#4 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): HomeController->actionRegister()
+#5 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#6 /opt/lampp/htdocs/yii/framework/web/CController.php(286): HomeController->runAction()
+#7 /opt/lampp/htdocs/yii/framework/web/CController.php(265): HomeController->runActionWithFilters()
+#8 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): HomeController->run()
+#9 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /opt/lampp/htdocs/event/index.php(13): CWebApplication->run()
+REQUEST_URI=/event/home/register
+in /opt/lampp/htdocs/event/protected/components/CommonFunctions.php (130)
+in /opt/lampp/htdocs/event/protected/modules/site/models/RegistrationForm.php (121)
+in /opt/lampp/htdocs/event/protected/modules/site/models/RegistrationForm.php (76)
+2014/06/30 16:22:19 [error] [php] include(HelperFunctions.php): failed to open stream: No such file or directory (/opt/lampp/htdocs/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /opt/lampp/htdocs/event/protected/components/CommonFunctions.php(130): spl_autoload_call()
+#1 /opt/lampp/htdocs/event/protected/modules/site/models/RegistrationForm.php(121): CommonFunctions->encryptPassword()
+#2 /opt/lampp/htdocs/event/protected/modules/site/models/RegistrationForm.php(76): RegistrationForm->generateFirstEncryptedPassword()
+#3 /opt/lampp/htdocs/event/protected/modules/site/controllers/HomeController.php(110): RegistrationForm->createAccount()
+#4 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): HomeController->actionRegister()
+#5 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#6 /opt/lampp/htdocs/yii/framework/web/CController.php(286): HomeController->runAction()
+#7 /opt/lampp/htdocs/yii/framework/web/CController.php(265): HomeController->runActionWithFilters()
+#8 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): HomeController->run()
+#9 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /opt/lampp/htdocs/event/index.php(13): CWebApplication->run()
+REQUEST_URI=/event/home/register
+in /opt/lampp/htdocs/event/protected/components/CommonFunctions.php (130)
+in /opt/lampp/htdocs/event/protected/modules/site/models/RegistrationForm.php (121)
+in /opt/lampp/htdocs/event/protected/modules/site/models/RegistrationForm.php (76)
+2014/06/30 16:22:28 [error] [php] include(HelperFunctions.php): failed to open stream: No such file or directory (/opt/lampp/htdocs/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /opt/lampp/htdocs/event/protected/components/CommonFunctions.php(130): spl_autoload_call()
+#1 /opt/lampp/htdocs/event/protected/modules/site/models/RegistrationForm.php(121): CommonFunctions->encryptPassword()
+#2 /opt/lampp/htdocs/event/protected/modules/site/models/RegistrationForm.php(76): RegistrationForm->generateFirstEncryptedPassword()
+#3 /opt/lampp/htdocs/event/protected/modules/site/controllers/HomeController.php(110): RegistrationForm->createAccount()
+#4 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): HomeController->actionRegister()
+#5 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#6 /opt/lampp/htdocs/yii/framework/web/CController.php(286): HomeController->runAction()
+#7 /opt/lampp/htdocs/yii/framework/web/CController.php(265): HomeController->runActionWithFilters()
+#8 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): HomeController->run()
+#9 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /opt/lampp/htdocs/event/index.php(13): CWebApplication->run()
+REQUEST_URI=/event/home/register
+in /opt/lampp/htdocs/event/protected/components/CommonFunctions.php (130)
+in /opt/lampp/htdocs/event/protected/modules/site/models/RegistrationForm.php (121)
+in /opt/lampp/htdocs/event/protected/modules/site/models/RegistrationForm.php (76)
+2014/06/30 16:23:25 [error] [exception.CException] exception 'CException' with message 'Property "Users.salt" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/db/ar/CActiveRecord.php(161): CComponent->__set('salt', 'c50a490b0a43241...')
+#1 /opt/lampp/htdocs/event/protected/modules/site/models/RegistrationForm.php(84): CActiveRecord->__set('salt', 'c50a490b0a43241...')
+#2 /opt/lampp/htdocs/event/protected/modules/site/controllers/HomeController.php(110): RegistrationForm->createAccount(Array)
+#3 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): HomeController->actionRegister()
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /opt/lampp/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('register')
+#8 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/home/regis...')
+#9 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/event/home/register
+---
+2014/06/30 16:24:02 [error] [exception.CException] exception 'CException' with message 'CommonFunctions and its behaviors do not have a method or closure named "getUserEncryptedKey".' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /opt/lampp/htdocs/event/protected/modules/site/models/RegistrationForm.php(85): CComponent->__call('getUserEncrypte...', Array)
+#1 /opt/lampp/htdocs/event/protected/modules/site/models/RegistrationForm.php(85): CommonFunctions->getUserEncryptedKey()
+#2 /opt/lampp/htdocs/event/protected/modules/site/controllers/HomeController.php(110): RegistrationForm->createAccount(Array)
+#3 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): HomeController->actionRegister()
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /opt/lampp/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('register')
+#8 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/home/regis...')
+#9 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/event/home/register
+---
+2014/06/30 16:25:06 [error] [exception.CException] exception 'CException' with message 'Property "Users.created_at" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/db/ar/CActiveRecord.php(161): CComponent->__set('created_at', Object(CDbExpression))
+#1 /opt/lampp/htdocs/event/protected/modules/site/models/RegistrationForm.php(86): CActiveRecord->__set('created_at', Object(CDbExpression))
+#2 /opt/lampp/htdocs/event/protected/modules/site/controllers/HomeController.php(110): RegistrationForm->createAccount(Array)
+#3 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): HomeController->actionRegister()
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /opt/lampp/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('register')
+#8 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/home/regis...')
+#9 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/event/home/register
+---
+2014/06/30 16:25:49 [error] [exception.CException] exception 'CException' with message 'CommonFunctions and its behaviors do not have a method or closure named "getUserActivationKey".' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /opt/lampp/htdocs/event/protected/modules/site/models/RegistrationForm.php(88): CComponent->__call('getUserActivati...', Array)
+#1 /opt/lampp/htdocs/event/protected/modules/site/models/RegistrationForm.php(88): CommonFunctions->getUserActivationKey(Object(Users))
+#2 /opt/lampp/htdocs/event/protected/modules/site/controllers/HomeController.php(110): RegistrationForm->createAccount(Array)
+#3 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): HomeController->actionRegister()
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /opt/lampp/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('register')
+#8 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/home/regis...')
+#9 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/event/home/register
+---
+2014/06/30 16:28:13 [error] [exception.CException] exception 'CException' with message 'Property "Users.email" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/db/ar/CActiveRecord.php(145): CComponent->__get('email')
+#1 /opt/lampp/htdocs/event/protected/components/CommonFunctions.php(187): CActiveRecord->__get('email')
+#2 /opt/lampp/htdocs/event/protected/modules/site/models/RegistrationForm.php(88): CommonFunctions->getUserActivationKey(Object(Users))
+#3 /opt/lampp/htdocs/event/protected/modules/site/controllers/HomeController.php(110): RegistrationForm->createAccount(Array)
+#4 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): HomeController->actionRegister()
+#5 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /opt/lampp/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#7 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('register')
+#9 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/home/regis...')
+#10 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/event/home/register
+---
+2014/06/30 16:28:24 [error] [exception.CException] exception 'CException' with message 'Property "Users.activation_key" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/db/ar/CActiveRecord.php(161): CComponent->__set('activation_key', '00df652625d2c62...')
+#1 /opt/lampp/htdocs/event/protected/modules/site/models/RegistrationForm.php(88): CActiveRecord->__set('activation_key', '00df652625d2c62...')
+#2 /opt/lampp/htdocs/event/protected/modules/site/controllers/HomeController.php(110): RegistrationForm->createAccount(Array)
+#3 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): HomeController->actionRegister()
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /opt/lampp/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('register')
+#8 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/home/regis...')
+#9 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/event/home/register
+---
+2014/06/30 16:28:52 [error] [exception.CException] exception 'CException' with message 'Property "Users.blocked" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/db/ar/CActiveRecord.php(161): CComponent->__set('blocked', 1)
+#1 /opt/lampp/htdocs/event/protected/modules/site/models/RegistrationForm.php(99): CActiveRecord->__set('blocked', 1)
+#2 /opt/lampp/htdocs/event/protected/modules/site/controllers/HomeController.php(110): RegistrationForm->createAccount(Array)
+#3 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): HomeController->actionRegister()
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /opt/lampp/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('register')
+#8 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/home/regis...')
+#9 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/event/home/register
+---
+2014/06/30 16:29:13 [error] [php] Undefined variable: is_from_assignment (/opt/lampp/htdocs/event/protected/modules/site/models/RegistrationForm.php:100)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(286): HomeController->runAction()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(265): HomeController->runActionWithFilters()
+#3 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): HomeController->run()
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /opt/lampp/htdocs/event/index.php(13): CWebApplication->run()
+REQUEST_URI=/event/home/register
+in /opt/lampp/htdocs/event/protected/modules/site/models/RegistrationForm.php (100)
+in /opt/lampp/htdocs/event/protected/modules/site/controllers/HomeController.php (110)
+in /opt/lampp/htdocs/event/index.php (13)
+2014/06/30 16:29:54 [error] [exception.CException] exception 'CException' with message 'CommonFunctions and its behaviors do not have a method or closure named "updateACLRecords".' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /opt/lampp/htdocs/event/protected/modules/site/models/RegistrationForm.php(106): CComponent->__call('updateACLRecord...', Array)
+#1 /opt/lampp/htdocs/event/protected/modules/site/models/RegistrationForm.php(106): CommonFunctions->updateACLRecords(Object(Users), false)
+#2 /opt/lampp/htdocs/event/protected/modules/site/controllers/HomeController.php(110): RegistrationForm->createAccount(Array)
+#3 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): HomeController->actionRegister()
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /opt/lampp/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('register')
+#8 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/home/regis...')
+#9 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/event/home/register
+---
+2014/06/30 16:30:47 [error] [php] Undefined variable: is_from_assignment (/opt/lampp/htdocs/event/protected/modules/site/models/RegistrationForm.php:108)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(286): HomeController->runAction()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(265): HomeController->runActionWithFilters()
+#3 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): HomeController->run()
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /opt/lampp/htdocs/event/index.php(13): CWebApplication->run()
+REQUEST_URI=/event/home/register
+in /opt/lampp/htdocs/event/protected/modules/site/models/RegistrationForm.php (108)
+in /opt/lampp/htdocs/event/protected/modules/site/controllers/HomeController.php (110)
+in /opt/lampp/htdocs/event/index.php (13)
+2014/06/30 16:31:09 [error] [exception.CException] exception 'CException' with message 'CommonFunctions and its behaviors do not have a method or closure named "sendUserConfirmationRequest".' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /opt/lampp/htdocs/event/protected/modules/site/models/RegistrationForm.php(109): CComponent->__call('sendUserConfirm...', Array)
+#1 /opt/lampp/htdocs/event/protected/modules/site/models/RegistrationForm.php(109): CommonFunctions->sendUserConfirmationRequest(Object(Users), false, 'sadsadsad')
+#2 /opt/lampp/htdocs/event/protected/modules/site/controllers/HomeController.php(110): RegistrationForm->createAccount(Array)
+#3 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): HomeController->actionRegister()
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /opt/lampp/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('register')
+#8 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/home/regis...')
+#9 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/event/home/register
+HTTP_REFERER=http://common.localhost.com/event/
+---
+2014/06/30 16:43:03 [error] [php] require(/opt/lampp/htdocs/event/protectedmodules/site/views/email_templates/email_confirmation.php): failed to open stream: No such file or directory (/opt/lampp/htdocs/event/protected/modules/site/models/Users.php:76)
+Stack trace:
+#0 /opt/lampp/htdocs/event/protected/modules/site/controllers/HomeController.php(110): RegistrationForm->createAccount()
+#1 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): HomeController->actionRegister()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(286): HomeController->runAction()
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(265): HomeController->runActionWithFilters()
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): HomeController->run()
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /opt/lampp/htdocs/event/index.php(13): CWebApplication->run()
+REQUEST_URI=/event/home/register
+in /opt/lampp/htdocs/event/protected/modules/site/models/Users.php (76)
+in /opt/lampp/htdocs/event/protected/modules/site/models/Users.php (76)
+in /opt/lampp/htdocs/event/protected/modules/site/models/RegistrationForm.php (109)
+2014/06/30 16:43:48 [error] [exception.CException] exception 'CException' with message 'Property "Users.email" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/db/ar/CActiveRecord.php(145): CComponent->__get('email')
+#1 /opt/lampp/htdocs/event/protected/modules/site/views/email_templates/email_confirmation.php(143): CActiveRecord->__get('email')
+#2 /opt/lampp/htdocs/event/protected/modules/site/models/Users.php(76): require('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/event/protected/modules/site/models/RegistrationForm.php(109): Users->sendUserConfirmationRequest(Object(Users), false, 'asdasdasdasd')
+#4 /opt/lampp/htdocs/event/protected/modules/site/controllers/HomeController.php(110): RegistrationForm->createAccount(Array)
+#5 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): HomeController->actionRegister()
+#6 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#7 /opt/lampp/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#8 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('register')
+#10 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/home/regis...')
+#11 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#12 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/event/home/register
+HTTP_REFERER=http://common.localhost.com/event/
+---
+2014/06/30 16:44:53 [error] [exception.CException] exception 'CException' with message 'Property "Users.email" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/db/ar/CActiveRecord.php(145): CComponent->__get('email')
+#1 /opt/lampp/htdocs/event/protected/modules/site/views/email_templates/email_confirmation.php(143): CActiveRecord->__get('email')
+#2 /opt/lampp/htdocs/event/protected/modules/site/models/Users.php(76): require('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/event/protected/modules/site/models/RegistrationForm.php(109): Users->sendUserConfirmationRequest(Object(Users), false, 'asdasdsad')
+#4 /opt/lampp/htdocs/event/protected/modules/site/controllers/HomeController.php(110): RegistrationForm->createAccount(Array)
+#5 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): HomeController->actionRegister()
+#6 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#7 /opt/lampp/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#8 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('register')
+#10 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/home/regis...')
+#11 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#12 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/event/home/register
+HTTP_REFERER=http://common.localhost.com/event/
+---
+2014/06/30 16:44:58 [error] [exception.CException] exception 'CException' with message 'Property "Users.email" is not defined.' in /opt/lampp/htdocs/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/db/ar/CActiveRecord.php(145): CComponent->__get('email')
+#1 /opt/lampp/htdocs/event/protected/modules/site/views/email_templates/email_confirmation.php(143): CActiveRecord->__get('email')
+#2 /opt/lampp/htdocs/event/protected/modules/site/models/Users.php(76): require('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/event/protected/modules/site/models/RegistrationForm.php(109): Users->sendUserConfirmationRequest(Object(Users), false, 'asdasdsad')
+#4 /opt/lampp/htdocs/event/protected/modules/site/controllers/HomeController.php(110): RegistrationForm->createAccount(Array)
+#5 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): HomeController->actionRegister()
+#6 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#7 /opt/lampp/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#8 /opt/lampp/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('register')
+#10 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/home/regis...')
+#11 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#12 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/event/home/register
+---
+2014/06/30 16:46:03 [error] [php] Undefined variable: model (/opt/lampp/htdocs/event/protected/modules/site/models/Users.php:84)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): HomeController->actionRegister()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(286): HomeController->runAction()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(265): HomeController->runActionWithFilters()
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): HomeController->run()
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#7 /opt/lampp/htdocs/event/index.php(13): CWebApplication->run()
+REQUEST_URI=/event/home/register
+in /opt/lampp/htdocs/event/protected/modules/site/models/Users.php (84)
+in /opt/lampp/htdocs/event/protected/modules/site/models/RegistrationForm.php (109)
+in /opt/lampp/htdocs/event/protected/modules/site/controllers/HomeController.php (110)

@@ -127,7 +127,7 @@ class CommonFunctions extends CComponent {
             $random_salt = $this->getRandomSalt();
         }
 
-        $password = HelperFunctions::passwordEncryptionMethod($password, $random_salt);
+        $password = $this->passwordEncryptionMethod($password, $random_salt);
         return $password;
     }
 
@@ -174,7 +174,18 @@ class CommonFunctions extends CComponent {
             echo $e->getMessage();
         }
     }
+    
+    /**
+    * Function to generate Activation link
+    * @param unknown_type $userObj
+    */
+    function getUserActivationKey($userObj=null)
+    {
 
+            if(is_null($userObj)){return md5($this->getUserEncryptedKey());}
+
+            return md5($userObj->email_id);
+    }
     /**
      * Function to generate random password for the first Use ...
      * @param integer $length

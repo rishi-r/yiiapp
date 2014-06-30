@@ -32,6 +32,16 @@ class Controller extends CController
             Yii::app()->setTheme(Yii::app()->params['admin-theme']) ;
             Yii::app()->user->setId(4);
             $this->theme_path = Yii::app()->theme->baseUrl."/";
+            $this->setScript();
+            define('EMAIL_VIEW', Yii::app()->getBasePath().'/modules/site/views/email_templates/');
+        }
+        
+        function setScript()
+        {
+            Yii::app()->clientScript->scriptMap=array(
+                    'jquery.js'=>false,
+            );
+            Yii::app()->clientScript->coreScriptPosition= CClientScript::POS_END;
         }
         
         function bCrumbs($links2 = array())

@@ -108,7 +108,7 @@ $(function() {
     //Fire when wrapper is resized
     $(".wrapper").resize(function() {
         _fix();
-        fix_sidebar();
+        
     });
 
     
@@ -123,6 +123,67 @@ $(function() {
     });
 
 });
+
+
+function Custombox()
+{
+    var _this = this;
+    var varTime;
+    this.init = function()
+    {
+        this.info_icon = '<i class="fa fa-info-sign"></i>';
+        this.remove_icon = '<i class="fa fa-times"></i>';
+    }
+    this.alert =function(mess, error_success,time)
+    {
+        this.init();
+        $("#cust_alert").removeClass("cust_alert_success").removeClass("cust_alert_error").html('').hide();
+        if(typeof error_success === "undefined" || error_success == null)
+        {
+            error_success = 1;
+        }
+        if(typeof time === "undefined")
+        {
+            time = 0;
+        }
+
+        var class_set = 'cust_alert_success';
+        if(error_success == 0)
+        {
+            class_set = 'cust_alert_error';
+        }
+
+        $("#cust_alert").addClass(class_set).html(this.info_icon+mess+this.remove_icon).slideDown(500);
+        clearTimeout(varTime);
+        if(time!=0)
+        {
+            varTime = setTimeout(function(){
+                _this.removealert();
+            },time)
+        }
+        $("#cust_alert .icon-remove-sign").bind("click",function(){
+            $("#cust_alert").slideUp(500);
+        });
+        
+    }
+    this.defalert =function(mess)
+    {
+        $("#cust_loader_def").html(mess).slideDown(500);
+    }
+    
+    this.removedefalert = function()
+    {
+        setTimeout(function(){
+            $("#cust_loader_def").slideUp(1000);
+        },1000);
+    }
+    this.removealert =function()
+    {
+        $("#cust_alert").removeClass("cust_alert_success").removeClass("cust_alert_success").html('').slideUp(500);
+    }
+}
+
+var custombox = new Custombox();
 
 /*
  * 
@@ -261,13 +322,13 @@ window.commonfn = window.commonfn || (function init($, undefined) {
         if ($(elem).is( "input")) 
         {
             var button = $("<button></button>");
-            $(button).attr("class",class_es).attr("disabled","disabled").attr("id",id+"_dummybtn").html('<img src="'+ICONS_PATH+'loader.gif" width=20 /> '+message);
+            $(button).attr("class",class_es).attr("disabled","disabled").attr("id",id+"_dummybtn").html('<img src="'+ICONS_PATH+'ajax-loader.gif" width=20 /> '+message);
             
             $(elem).after(button);
         }
         else
         {
-            $(thistag).removeAttr("id").attr("disabled","disabled").attr("id",id+"_dummybtn").html('<img src="'+ICONS_PATH+'loader.gif" width=20 /> '+message);
+            $(thistag).removeAttr("id").attr("disabled","disabled").attr("id",id+"_dummybtn").html('<img src="'+ICONS_PATH+'ajax-loader.gif" width=20 /> '+message);
             $(elem).after(thistag);
         }
         var date =  new Date();

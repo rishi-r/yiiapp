@@ -3,6 +3,7 @@
     <head>
         <?php
         include_once 'meta_css.php';
+        include_once 'constants_js.php';
         ?>
     </head>
     <body class="skin-blue">
@@ -81,10 +82,11 @@
                 </section><!-- /.content -->
             </aside><!-- /.right-side -->
         </div><!-- ./wrapper -->
+        <div class="cust_alert text-muted" id="cust_alert">
+        </div>
 <!-- jQuery 2.0.2 -->
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
 <?php
-
 $jsArr = array(
             // jQuery UI 1.10.3
             'jquery-ui-1.10.3.min',

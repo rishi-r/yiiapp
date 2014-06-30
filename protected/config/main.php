@@ -52,7 +52,6 @@ return array(
                 ),
                 'user_agent'=>array(   
                     'class'         => 'User_agent'  
-                    
                 ),
 		'user'=>array(
 			// enable cookie-based authentication
@@ -117,20 +116,31 @@ return array(
                 ),
                 'bootstrap'=>array(
                     'class'=>'bootstrap.components.Bootstrap',
-                )
-	),
+                ),
+                'mailer' => array(
+                    'class' => 'ext.Yii-SwiftMailer.SwiftMailer',
+                    'mailer' => 'smtp',
+                    'security' => 'tls', 
+                    'host'=>'smtp.cisinlabs.com',
+                    'from'=>'test@test.com',
+                    'username'=>'rishi.r@cisinlabs.com',
+                    'password'=>'sdbyj4368',
+                    'logMailerActivity' => true, 
+                    'logMailerDebug' => true, 
+                ), 
+       ),
 
 	// application-level parameters that can be accessed
 	// using Yii::app()->params['paramName']
 	'params'=>array(
 		// this is used in contact page
 		'adminEmail'=>'webmaster@example.com',
+		'noReplyEmail'=>'no-reply@example.com',
                 'admin-theme' => 'admin_theme',
                 'front-theme' => 'front_theme',
                 // this is used in contact page
                 'REMEMBER_ME_EXPIRE' => 10,
-		'adminEmail'=>'webmaster@example.com',
- 		'doc_size' => 1000000,
+		'doc_size' => 1000000,
 		'allowed_files' => 'pdf,doc,xls,docx,xlsx,png',
                 'uploadPath'=>ROOT_PATH."userdocs".DIRECTORY_SEPARATOR,
                 'sign_folder' => 'signature',

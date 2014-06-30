@@ -12,6 +12,24 @@ class HomeController extends Controller {
         parent::init();
     }
     
+    /**
+    * Declares class-based actions.
+    */
+    public function actions()
+    {
+        return array(  
+                // captcha action renders the CAPTCHA image displayed on the contact page
+                'captcha'=>array(
+                        'class'=>'CCaptchaAction',
+                        'backColor'=>0xFFFFFF,
+                ),
+
+                'page'=>array(
+                        'class'=>'CViewAction',
+                ),
+        );
+    }
+        
     public function actionIndex() 
     {
         //echo Yii::app()->input->stripClean("fdgfdgfdg");die;
@@ -23,7 +41,14 @@ class HomeController extends Controller {
                         'test',
                         );
         $this->bCrumbs($links2);
-        $this->render('index');
+        if(Yii::app()->user->isGuest)
+            $this->render('index');
+        else
+        {
+            //$login_form = $this->renderPartial('/elements/login_form',array(),true);
+            $signup_form = $this->renderPartial('/elements/signup_form',array(),true);
+            $this->render('site_index',array('signup_form' => $signup_form));
+        }
     }
     
     public function actionDashboard() 
@@ -43,30 +68,30 @@ class HomeController extends Controller {
         echo CHtml::dropDownList('users', 1, $list, array('empty' => '(Select a user'));
     }
     
-    
     /**
     * Displays the contact page
     */
     public function actionContact()
     {
-        $model=new ContactForm();
+        $this->breadcrumbs=array(                  
+            );
+        $model=new ContactForm;  
         if(isset($_POST['ContactForm']))
         {
-                $model->attributes=$_POST['ContactForm'];
-                if($model->validate())
-                {
-                        $name='=?UTF-8?B?'.base64_encode($model->name).'?=';
-                        $subject='=?UTF-8?B?'.base64_encode($model->subject).'?=';
-                        $headers="From: $name <{$model->email}>\r\n".
-                                "Reply-To: {$model->email}\r\n".
-                                "MIME-Version: 1.0\r\n".
-                                "Content-Type: text/plain; charset=UTF-8";
-
-                        mail(Yii::app()->params['adminEmail'],$subject,$model->body,$headers);
-                        Yii::app()->user->setFlash('contact','Thank you for contacting us. We will respond to you as soon as possible.');
-                        $this->refresh();
-                }
-        }
+            $model->attributes = $_POST['ContactForm'];
+            if($model->validate())
+            {
+                $mailObj = new MailFunctions;
+                $mailObj->auto = false;
+                $mailObj->name = $model->name;
+                $mailObj->subject = $model->subject;
+                $mailObj->fromEmail = $model->email;
+                $mailObj->body = $model->body;
+                $mailObj->sendMail();
+                Yii::app()->user->setFlash('contact','Thank you for contacting us. We will respond to you as soon as possible.');
+                $this->refresh();
+            }
+        } 
         $this->render('contact',array('model'=>$model));
     }
     
@@ -98,13 +123,13 @@ class HomeController extends Controller {
     */
     public function actionError()
     {
-            if($error=Yii::app()->errorHandler->error)
-            {
-                    if(Yii::app()->request->isAjaxRequest)
-                            echo $error['message'];
-                    else
-                            $this->render('error', $error);
-            }
+        if($error = Yii::app()->errorHandler->error)
+        {
+            if(Yii::app()->request->isAjaxRequest)
+                    echo $error['message'];
+            else
+                    $this->render('error', $error);
+        }
     }
     
     public function actionLogout()

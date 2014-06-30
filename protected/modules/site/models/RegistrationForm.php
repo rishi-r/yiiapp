@@ -37,9 +37,9 @@ class RegistrationForm extends CFormModel {
 
     public function checkDuplicate($attribute, $params) {
         $usercount = User::model()->count(array(
-            'condition' => 'email = :email',
+            'condition' => 'email_id = :email_id',
             'params' => array(
-                ':email' => $this->email,
+                ':email_id' => $this->email,
             )
         ));
         if ($usercount) {
@@ -67,7 +67,7 @@ class RegistrationForm extends CFormModel {
         //check if silent registration is enabled or not
         $is_silentRegistration = Yii::app()->params['silentRegistraion'];
 
-        $user = new User;
+        $user = new Users();
         if (isset($post['password'])) {
             $random_password = $post['password'];
         } else {
@@ -79,12 +79,12 @@ class RegistrationForm extends CFormModel {
         if (isset($post['firstName'])) {
             $user->firstName = $post['firstName'];
         }
-        $user->email = $post['email'];
+        $user->email_id = $post['email'];
         $user->password = $this->_password;
         $user->salt = $this->_salt;
-        $user->user_key = $this->_helper->getUserEncryptedKey();
+        $user->user_key = $this->_helper->getEncryptedKey();
         $user->created_at = new CDbExpression('NOW()');
-        $user->updated_at = new CDbExpression('NOW()');
+        $user->modified_at = new CDbExpression('NOW()');
         $user->activation_key = $this->_helper->getUserActivationKey($user);
 
         if (!empty($socialReg) && isset($post['social_provider']) && isset($post['social_identifier']) && isset($post['social_avatar']))        {
@@ -97,20 +97,16 @@ class RegistrationForm extends CFormModel {
             $user->blocked = $blocked;
         else
             $user->blocked = (!$is_silentRegistration) ? 1 : $blocked;
-        if ($is_from_assignment == 0) {
-            $user->createdby_email = $this->_helper->getDataFromDb("User", "email", 'user_key', Yii::app()->user->getId(), false);
-            $user->createdby_user_key = Yii::app()->user->getId();
-        }
-
-        if (!$user->save()) {
-            return !$this->addError('error', 'Unable to Save User Data');
-        }
+        
+       // if (!$user->save()) {
+         //   return !$this->addError('error', 'Unable to Save User Data');
+        //}
 
         //update Group ACL Records
-        $this->_helper->updateACLRecords($user, false);
+        //$this->_helper->updateACLRecords($user, false);
 
-        if (!$is_silentRegistration && !$isAutoCreated && !$is_from_assignment) {
-            return $this->_helper->sendUserConfirmationRequest($user, $isAutoCreated, $random_password);
+        if (!$is_silentRegistration && !$isAutoCreated) {
+            return $user->sendUserConfirmationRequest($user, $isAutoCreated, $random_password);
         }
 
         return true;
@@ -136,8 +132,7 @@ class RegistrationForm extends CFormModel {
             return array("status" => "error", "msg" => "Email ID does not match any records.");
         }
 
-
-        $reset_key = HelperFunctions::getUserEncryptedKey();
+        $reset_key = CommonFunctions::getUserEncryptedKey();
         $body = null;
         ob_start();
         Yii::app()->controller->renderPartial('resetmail', array('userObj' => $userObj, "resetKey" => $reset_key));
@@ -150,7 +145,7 @@ class RegistrationForm extends CFormModel {
         $userObj->save();
         //reset key updated
 
-        HelperFunctions::sendMail($userObj, $subject, $body);
+        CommonFunctions::sendMail($userObj, $subject, $body);
         return array("status" => "success", "msg" => "Reset Mail Sent.");
     }
 

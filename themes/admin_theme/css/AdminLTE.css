@@ -3403,6 +3403,11 @@ fieldset[disabled] .btn-vk.active {
   background-color: #ffffff;
 }
 
+.displaynonehard
+{
+    display: none!important;
+}
+
 .fileinput-button input
 {
     border: none!important;
@@ -3436,4 +3441,43 @@ fieldset[disabled] .btn-vk.active {
 {
     font-size: 50px;
     color: #3bba31;
+}
+
+/* cust_alert css */
+
+.cust_alert{
+    display: none;
+    position: fixed;
+    top: 0px;
+    text-shadow:1px 1px 1px rgba(0,0,0,0.5);
+    left: 33%;
+    width: 34%;
+    color:#fff;
+    padding: 3px 5px;
+    text-align: center;
+    z-index: 2000;
+    background-color: #FFF;
+    word-wrap : break-word;
+    border-radius: 3px;
+    border-top-left-radius:  0px;
+    border-top-right-radius: 0px;
+    font-size: 30px;
+}
+.cust_alert_error{
+    text-shadow: none;
+    color:#FF0000;
+}
+.cust_alert_success{
+    color:#008d4c;
+}
+
+#cust_alert .icon-info-sign 
+{
+    margin-top: 3px;
+    margin-right: 10px;
+}
+#cust_alert .icon-remove-sign {
+  float: right;
+  cursor: pointer;
+  margin-top: 3px;
 }

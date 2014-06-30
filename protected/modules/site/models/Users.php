@@ -57,6 +57,38 @@ class Users extends CActiveRecord
             return false;
     }
     
+    function sendUserConfirmationRequest($userObj=null,$isAutoCreated=false,$randomPassword=null)
+    {
+        if(!is_object($userObj) || is_null($userObj))
+        {
+                return false;
+        }
+
+        $body = null;
+        $subject = "Activation mail";
+        //$link = $this->getUserActivationKey($userObj);
+
+        if(!$isAutoCreated)
+        {
+            $template_name = "email_confirmation";
+            //--start template buffering--//
+            ob_start();
+            require(EMAIL_VIEW.$template_name.".php");
+            $body = ob_get_contents();
+            ob_end_clean();
+            //--end template buffering--//
+        }
+        //echo $body;
+        
+        $mailObj = new MailFunctions;
+        //$mailObj->name = $model->name;
+        $mailObj->subject = $subject;
+        $mailObj->toEmail = $userObj->email_id;
+        $mailObj->body = $body;
+        $mailObj->sendMail();
+        return true;
+    }
+    
     function test()
     {
         Logs::addEvent("test success","123",'template-DataError','error');
