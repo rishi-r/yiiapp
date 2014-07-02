@@ -82,7 +82,7 @@ class RegistrationForm extends CFormModel {
         $user->email_id = $post['email'];
         $user->password = $this->_password;
         $user->salt = $this->_salt;
-        $user->user_key = $this->_helper->getEncryptedKey();
+        $user->user_key = $this->_helper->getUserEncryptedKey();
         $user->created_at = new CDbExpression('NOW()');
         $user->modified_at = new CDbExpression('NOW()');
         $user->activation_key = $this->_helper->getUserActivationKey($user);
@@ -98,8 +98,8 @@ class RegistrationForm extends CFormModel {
         else
             $user->blocked = (!$is_silentRegistration) ? 1 : $blocked;
         
-       // if (!$user->save()) {
-         //   return !$this->addError('error', 'Unable to Save User Data');
+        //if (!$user->save()) {
+          //  return !$this->addError('error', 'Unable to Save User Data');
         //}
 
         //update Group ACL Records

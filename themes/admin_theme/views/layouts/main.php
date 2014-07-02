@@ -11,7 +11,7 @@
         <header class="header">
             <a href="<?php echo  Yii::app()->createUrl('/');?>" class="logo">
                 <!-- Add the class icon to your logo image or logo icon to add the margining -->
-                AdminLTE
+                <?php echo Yii::app()->params['site_name'];?>
             </a>
             <!-- Header Navbar: style can be found in header.less -->
             <nav class="navbar navbar-static-top" role="navigation">
@@ -88,13 +88,19 @@
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
 <?php
 $jsArr = array(
-            // jQuery UI 1.10.3
-            'jquery-ui-1.10.3.min',
             //Bootstrap
             'bootstrap.min',
-            // iCheck
-            'plugins/iCheck/icheck.min',
             );
+if(isset($this->req_js) && $this->req_js)
+{
+    $jsArr2 = array(
+                // jQuery UI 1.10.3
+                'jquery-ui-1.10.3.min',
+                // iCheck
+                'plugins/iCheck/icheck.min',
+                );
+    $jsArr = array_merge($jsArr,$jsArr2);
+}
 if(isset($this->uploader_js) && $this->uploader_js)
 {
     $jsArr2 = array(

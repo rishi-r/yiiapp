@@ -107,12 +107,12 @@
                  	  		
                  	  }
                  	  '
-                    ), array('id' => 'signup-btn', 'value' => "GET started", 'class' => 'btn btn-lg btn-success pull-left signup-btn-main', 'data-style' => 'expand-left'));
+                    ), array('id' => 'signup-btn', 'value' => Yii::app()->params['site_name'], 'class' => 'btn btn-lg col-lg-12 btn-success pull-left signup-btn-main', 'data-style' => 'expand-left'));
             ?>
             <div class="clearfix"></div>
             <br/>
             <div>
-                By clicking "Sign up for test", you agree to our terms of service and privacy policy.<br/> We will send you account related emails occasionally.
+                By clicking "Sign up for <?php echo Yii::app()->params['site_name'];?>", you agree to our terms of service and privacy policy.<br/> We will send you account related emails occasionally.
             </div>
             <div class="clearfix"></div>
             <?php $this->endWidget(); ?>

@@ -118,6 +118,31 @@ class HomeController extends Controller {
         Yii::app()->end();
     }
     
+    public function actionUserActivate()
+    {
+        $userToken = Yii::app()->request->getQuery('token');
+        $userflashes = null;
+        if(empty($userToken)) {Yii::app()->end('Invalid Request!');}
+        $userData = Users::model()->find(array(
+                                    'select'=>'user_id,email_id,blocked',
+                                    'condition'=>'activation_key=:activation_key AND blocked=1',
+                                    'params'=>array(':activation_key'=>$userToken),
+                             ));
+        if(is_null($userData))
+        {
+            Yii::app()->user->setFlash('success', Yii::t('registrationMessages','USALREADYACTIVATED')); 
+            $this->redirect(Yii::app()->createUrl('home'));		
+        }		
+        $userData->blocked = 0;
+        $isUpdated = $userData->save();
+        if($isUpdated)
+        {
+            //Yii::app()->user->setFlash('error', Yii::t('registrationMessages','USACTIVATED')); 
+            Yii::app()->user->setState('activated', 1);
+            $this->redirect(Yii::app()->createUrl('home'));
+        }
+    }
+    
     /**
     * This is the action to handle external exceptions.
     */

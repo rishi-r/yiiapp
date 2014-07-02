@@ -97,6 +97,21 @@ class CommonFunctions extends CComponent {
 
         return md5($randomKey2 . time());
     }
+    
+    /**
+     * Generate Random Key for Document
+     * @return string
+     */
+    function getUserEncryptedKey() {
+        $randomKey = 0;
+        $randomKey2 = 0;
+        do {
+            $randomKey = CommonFunctions::randomKey();
+            $randomKey2 = CommonFunctions::randomKey();
+        } while ($randomKey == $randomKey2);
+
+        return ($randomKey2);
+    }
 
     function randomKey() {
         return mt_rand(100000000, 999999999);

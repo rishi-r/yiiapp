@@ -4185,3 +4185,155 @@ REQUEST_URI=/event/home/register
 in /opt/lampp/htdocs/event/protected/modules/site/models/Users.php (84)
 in /opt/lampp/htdocs/event/protected/modules/site/models/RegistrationForm.php (109)
 in /opt/lampp/htdocs/event/protected/modules/site/controllers/HomeController.php (110)
+2014/07/01 09:33:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site/UserActivate/token/6e75c19fc102b922ce777897131ad709".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/UserActiva...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/site/UserActivate/token/6e75c19fc102b922ce777897131ad709
+---
+2014/07/01 12:08:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site/UserActivate/token/6e75c19fc102b922ce777897131ad709".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/UserActiva...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/site/UserActivate/token/6e75c19fc102b922ce777897131ad709
+---
+2014/07/01 12:08:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "UserActivate".' in /opt/lampp/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(270): CController->missingAction('UserActivate')
+#1 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('UserActivate')
+#2 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('home/UserActiva...')
+#3 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/event/home/UserActivate/token/6e75c19fc102b922ce777897131ad709
+---
+2014/07/01 12:08:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/screen.css".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/screen.css')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/css/screen.css
+HTTP_REFERER=http://common.localhost.com/event/home/UserActivate/token/6e75c19fc102b922ce777897131ad709
+---
+2014/07/01 12:08:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/form.css".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/form.css')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/css/form.css
+HTTP_REFERER=http://common.localhost.com/event/home/UserActivate/token/6e75c19fc102b922ce777897131ad709
+---
+2014/07/01 12:08:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/print.css".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/print.css')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/css/print.css
+HTTP_REFERER=http://common.localhost.com/event/home/UserActivate/token/6e75c19fc102b922ce777897131ad709
+---
+2014/07/01 12:08:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/main.css".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/main.css')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/css/main.css
+HTTP_REFERER=http://common.localhost.com/event/home/UserActivate/token/6e75c19fc102b922ce777897131ad709
+---
+2014/07/01 13:10:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "UserActivate".' in /opt/lampp/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(270): CController->missingAction('UserActivate')
+#1 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('UserActivate')
+#2 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('home/UserActiva...')
+#3 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/event/home/UserActivate/token/6e75c19fc102b922ce777897131ad709
+---
+2014/07/01 13:10:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/print.css".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/print.css')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/css/print.css
+HTTP_REFERER=http://common.localhost.com/event/home/UserActivate/token/6e75c19fc102b922ce777897131ad709
+---
+2014/07/01 13:10:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/main.css".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/main.css')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/css/main.css
+HTTP_REFERER=http://common.localhost.com/event/home/UserActivate/token/6e75c19fc102b922ce777897131ad709
+---
+2014/07/01 13:10:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/screen.css".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/screen.css')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/css/screen.css
+HTTP_REFERER=http://common.localhost.com/event/home/UserActivate/token/6e75c19fc102b922ce777897131ad709
+---
+2014/07/01 13:10:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/form.css".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/form.css')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/css/form.css
+HTTP_REFERER=http://common.localhost.com/event/home/UserActivate/token/6e75c19fc102b922ce777897131ad709
+---
+2014/07/01 13:10:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "UserActivate/token/6e75c19fc102b922ce777897131ad709".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('UserActivate/to...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/UserActivate/token/6e75c19fc102b922ce777897131ad709
+---
+2014/07/01 13:11:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/screen.css".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/screen.css')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/css/screen.css
+HTTP_REFERER=http://common.localhost.com/event/home
+---
+2014/07/01 13:11:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/print.css".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/print.css')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/css/print.css
+HTTP_REFERER=http://common.localhost.com/event/home
+---
+2014/07/01 13:11:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/main.css".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/main.css')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/css/main.css
+HTTP_REFERER=http://common.localhost.com/event/home
+---
+2014/07/01 13:11:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/form.css".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/form.css')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/event/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/css/form.css
+HTTP_REFERER=http://common.localhost.com/event/home
+---

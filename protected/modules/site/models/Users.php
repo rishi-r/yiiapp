@@ -71,6 +71,7 @@ class Users extends CActiveRecord
         if(!$isAutoCreated)
         {
             $template_name = "email_confirmation";
+            $title = Yii::app()->params['site_name']." | Activation mail";
             //--start template buffering--//
             ob_start();
             require(EMAIL_VIEW.$template_name.".php");

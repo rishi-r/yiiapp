@@ -134,8 +134,11 @@ return array(
 	// using Yii::app()->params['paramName']
 	'params'=>array(
 		// this is used in contact page
+		'site_name'=>'Test Dummy',
 		'adminEmail'=>'webmaster@example.com',
+		'helpEmail'=>'help@example.com',
 		'noReplyEmail'=>'no-reply@example.com',
+		'site_domain'=>'www.example.com',
                 'admin-theme' => 'admin_theme',
                 'front-theme' => 'front_theme',
                 // this is used in contact page
